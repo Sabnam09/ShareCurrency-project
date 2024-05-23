@@ -7,10 +7,10 @@ import { Link } from 'react-router-dom';
 const Blog = () => {
     return (
         <>
-        <div className="about-sec-bg" >
+            <div className="about-sec-bg" >
                 <h1>Blog</h1>
             </div>
-            <div className="blog-sec-bg" ></div>
+            {/* <div className="blog-sec-bg" ></div> */}
             <section className='blog-sec'>
                 <div className="container">
                     <div className="row">
@@ -30,7 +30,7 @@ const Blog = () => {
                                                 <p className="card-text mt-2 mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, nesciunt vero soluta quibusdam facere eveniet! Officia odio, et aliquid error, quaerat suscipit reiciendis facere corporis accusantium sequi voluptate enim dolores.</p>
                                                 <div className="read-more-btn">
                                                     {/* <a href="Blog">Read More </a> */}
-                                                    <Link to="/BlogSinglePage"> Read More </Link>
+                                                    <Link to="/blogSinglePage"> Read More </Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -48,7 +48,7 @@ const Blog = () => {
                                                 </div>
                                                 <p className="card-text mt-2 mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, nesciunt vero soluta quibusdam facere eveniet! Officia odio, et aliquid error, quaerat suscipit reiciendis facere corporis accusantium sequi voluptate enim dolores.</p>
                                                 <div className="read-more-btn">
-                                                <Link to="/BlogSinglePage"> Read More </Link>
+                                                    <Link to="/blogSinglePage"> Read More </Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -67,7 +67,7 @@ const Blog = () => {
                                                 </div>
                                                 <p className="card-text mt-2 mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, nesciunt vero soluta quibusdam facere eveniet! Officia odio, et aliquid error, quaerat suscipit reiciendis facere corporis accusantium sequi voluptate enim dolores.</p>
                                                 <div className="read-more-btn">
-                                                    <Link to="/BlogSinglePage"> Read More </Link>
+                                                    <Link to="/blogSinglePage"> Read More </Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -84,43 +84,7 @@ const Blog = () => {
                                                 </div>
                                                 <p className="card-text mt-2 mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, nesciunt vero soluta quibusdam facere eveniet! Officia odio, et aliquid error, quaerat suscipit reiciendis facere corporis accusantium sequi voluptate enim dolores.</p>
                                                 <div className="read-more-btn">
-                                                    <Link to="/BlogSinglePage"> Read More </Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="row">
-                                    <div className="col-lg-6">
-                                        <div className="card blog-card">
-                                            <img src="https://dtdigibit.wpengine.com/wp-content/uploads/2018/01/Blog-3-780x530.jpg" class="img-fluid attachment-digibit-blog-ii-column size-digibit-blog-ii-column" alt=""></img>
-                                            <div className="card-body blog-card-body">
-                                                <div className='card-hedd'>
-                                                    <a href='#'>Exchange rate of bitcoin</a>
-                                                </div>
-                                                <div className='mt-2 blog-dates'>
-                                                    <p>January 17, 2018</p>
-                                                </div>
-                                                <p className="card-text mt-2 mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, nesciunt vero soluta quibusdam facere eveniet! Officia odio, et aliquid error, quaerat suscipit reiciendis facere corporis accusantium sequi voluptate enim dolores.</p>
-                                                <div className="read-more-btn">
-                                                    <Link to="/BlogSinglePage"> Read More </Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-6">
-                                        <div className="card blog-card">
-                                            <img src="https://dtdigibit.wpengine.com/wp-content/uploads/2018/01/Blog-3-780x530.jpg" class="img-fluid attachment-digibit-blog-ii-column size-digibit-blog-ii-column" alt=""></img>
-                                            <div className="card-body blog-card-body">
-                                                <div className='card-hedd'>
-                                                    <a href='#'>Exchange rate of bitcoin</a>
-                                                </div>
-                                                <div className='mt-2 blog-dates'>
-                                                    <p>January 17, 2018</p>
-                                                </div>
-                                                <p className="card-text mt-2 mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, nesciunt vero soluta quibusdam facere eveniet! Officia odio, et aliquid error, quaerat suscipit reiciendis facere corporis accusantium sequi voluptate enim dolores.</p>
-                                                <div className="read-more-btn">
-                                                    <Link to="/BlogSinglePage"> Read More </Link>
+                                                    <Link to="/blogSinglePage"> Read More </Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -139,7 +103,7 @@ const Blog = () => {
                                                 </div>
                                                 <p className="card-text mt-2 mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, nesciunt vero soluta quibusdam facere eveniet! Officia odio, et aliquid error, quaerat suscipit reiciendis facere corporis accusantium sequi voluptate enim dolores.</p>
                                                 <div className="read-more-btn">
-                                                    <Link to="/BlogSinglePage"> Read More </Link>
+                                                    <Link to="/blogSinglePage"> Read More </Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -156,7 +120,7 @@ const Blog = () => {
                                                 </div>
                                                 <p className="card-text mt-2 mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, nesciunt vero soluta quibusdam facere eveniet! Officia odio, et aliquid error, quaerat suscipit reiciendis facere corporis accusantium sequi voluptate enim dolores.</p>
                                                 <div className="read-more-btn">
-                                                    <Link to="/BlogSinglePage"> Read More </Link>
+                                                    <Link to="/blogSinglePage"> Read More </Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -175,7 +139,7 @@ const Blog = () => {
                                                 </div>
                                                 <p className="card-text mt-2 mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, nesciunt vero soluta quibusdam facere eveniet! Officia odio, et aliquid error, quaerat suscipit reiciendis facere corporis accusantium sequi voluptate enim dolores.</p>
                                                 <div className="read-more-btn">
-                                                    <Link to="/BlogSinglePage"> Read More </Link>
+                                                    <Link to="/blogSinglePage"> Read More </Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -192,7 +156,43 @@ const Blog = () => {
                                                 </div>
                                                 <p className="card-text mt-2 mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, nesciunt vero soluta quibusdam facere eveniet! Officia odio, et aliquid error, quaerat suscipit reiciendis facere corporis accusantium sequi voluptate enim dolores.</p>
                                                 <div className="read-more-btn">
-                                                    <Link to="/BlogSinglePage"> Read More </Link>
+                                                    <Link to="/blogSinglePage"> Read More </Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-lg-6">
+                                        <div className="card blog-card">
+                                            <img src="https://dtdigibit.wpengine.com/wp-content/uploads/2018/01/Blog-3-780x530.jpg" class="img-fluid attachment-digibit-blog-ii-column size-digibit-blog-ii-column" alt=""></img>
+                                            <div className="card-body blog-card-body">
+                                                <div className='card-hedd'>
+                                                    <a href='#'>Exchange rate of bitcoin</a>
+                                                </div>
+                                                <div className='mt-2 blog-dates'>
+                                                    <p>January 17, 2018</p>
+                                                </div>
+                                                <p className="card-text mt-2 mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, nesciunt vero soluta quibusdam facere eveniet! Officia odio, et aliquid error, quaerat suscipit reiciendis facere corporis accusantium sequi voluptate enim dolores.</p>
+                                                <div className="read-more-btn">
+                                                    <Link to="/blogSinglePage"> Read More </Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6">
+                                        <div className="card blog-card">
+                                            <img src="https://dtdigibit.wpengine.com/wp-content/uploads/2018/01/Blog-3-780x530.jpg" class="img-fluid attachment-digibit-blog-ii-column size-digibit-blog-ii-column" alt=""></img>
+                                            <div className="card-body blog-card-body">
+                                                <div className='card-hedd'>
+                                                    <a href='#'>Exchange rate of bitcoin</a>
+                                                </div>
+                                                <div className='mt-2 blog-dates'>
+                                                    <p>January 17, 2018</p>
+                                                </div>
+                                                <p className="card-text mt-2 mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, nesciunt vero soluta quibusdam facere eveniet! Officia odio, et aliquid error, quaerat suscipit reiciendis facere corporis accusantium sequi voluptate enim dolores.</p>
+                                                <div className="read-more-btn">
+                                                    <Link to="/blogSinglePage"> Read More </Link>
                                                 </div>
                                             </div>
                                         </div>

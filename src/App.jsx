@@ -6,6 +6,7 @@ import HedNavbar from './component/navbar/HedNavbar';
 import Footer from './component/footer/Footer';
 import AboutUs from './component/about/AboutUs';
 import Blog from './component/blog/Blog';
+import BlogSinglePage from './component/blog/BlogSinglePage';
 import News from './component/news/News';
 import FeaturesPage from './component/features/FeaturesPage';
 import ContactUs from './component/user/ContactUs';
@@ -25,6 +26,7 @@ function App() {
             {/* <Route path="/" element={<Home />} /> */}
             <Route path="/aboutus" element={<AboutUs />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/blogSinglePage" element={<BlogSinglePage />} />
             <Route path="/news" element={<News />} />
             <Route path="/featuresPage" element={<FeaturesPage />}></Route>
             <Route path="/services" element={<Services />}></Route>
