@@ -56,7 +56,7 @@ const Footer = () => {
                                             <span class="fa-li"><HiChevronDoubleRight /></span><span class="ms-2">DISCLAIMER</span>
                                         </li>
                                         <li class="mb-3">
-                                            <span class="fa-li"><HiChevronDoubleRight /></span><span class="ms-2"> ERMS AND CONDITIONS</span>
+                                            <span class="fa-li"><HiChevronDoubleRight /></span><span class="ms-2"> TERMS AND CONDITIONS</span>
                                         </li>
 
 
