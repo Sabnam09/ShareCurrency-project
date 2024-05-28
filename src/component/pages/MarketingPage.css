@@ -1,26 +1,64 @@
-   MarketingPage.css
+  
+  /* MarketingPage.css */
 
-   .container{
-    background-color: #dcdcdd;
+   .area-chart-container{
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(166, 162, 162, 0.5);
+    margin-top: 50px; 
+    width: 70%;
+    height: 500px;
    }
+
+   .area-chart-container h1{
+    margin-top: 40px;
+    text-align: center;
+   }
+   .area-chart-container h2{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 22px;
+    font-weight: bold;
+   }
+   /* MarketingPage.css */
+
+/* Table styles */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Table header styles */
+.table th {
+  background-color: #87ceeb;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+
+.area-chart-container {
+  margin-top: 20px;
+}
+
  .container_banner {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin-top: 50px;  */
-    /* background-color: #9ce1f8;  */
-    /* box-shadow: 10px, 10px,10px rgba(a6,a2,a2,0.6); */
-    box-shadow: 0px 0px 10px rgba(166, 162, 162, 0.5);
-
   } 
-  
   
   .banner_outer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    /* margin-top: 20px;  */
   }
   
   
@@ -29,18 +67,26 @@
     padding: 20px;
   }
   
-  
+  .banner-box{
+    box-shadow: 0px 0px 10px rgba(166, 162, 162, 0.5);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right:20px;
+  }
+
   .sub_banner_image img {
-    max-width: 100%;
-    height: auto;
+    max-width: 600px;
+    height: 350px;
     border-radius: 20px;
-    /* position: absolute; */
     transition: transform 0.5s ease;
-    transform: scale(0.5) translate(-100%, -100%);
+    /* transform: scale(0.5) translate(-100%, -100%); */
+    transform: scale(0.9);
   }
   
   .sub_banner_image img:hover{
-    transform: scale(1.1); /* Scale the image on hover */
+    transform: scale(1); 
+    
   }
   .title {
     color: #333;
@@ -75,15 +121,6 @@
     background-color: #0056b3;
   }
   
-  .line-chart-container {
-    margin-top: 50px; 
-    width: 70%;
-    height: 500px;
-    background-color: #dee2ff;
-    
-  }
-  .line-chart-container h1{
-    text-align: center;
-  }
+  
 
   
