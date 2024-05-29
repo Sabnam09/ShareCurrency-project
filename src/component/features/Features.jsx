@@ -13,6 +13,7 @@ function Features() {
             <div className="about-sec-bg" >
                 <h1>Features</h1>
             </div>
+            
             <section className="sec-1">
                 <div className="row">
                     <div className="col-4">

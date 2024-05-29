@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css"
 import HedNavbar from './component/navbar/HedNavbar';
 import Footer from './component/footer/Footer';
+import Home from './component/home/Home';
 import AboutUs from './component/about/AboutUs';
 import Blog from './component/blog/Blog';
 import BlogSinglePage from './component/blog/BlogSinglePage';
@@ -23,7 +24,7 @@ function App() {
       <HedNavbar />
         <div className="content">
           <Routes>
-            {/* <Route path="/" element={<Home />} /> */}
+            <Route path="/" element={<Home />} />
             <Route path="/aboutus" element={<AboutUs />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blogSinglePage" element={<BlogSinglePage />} />

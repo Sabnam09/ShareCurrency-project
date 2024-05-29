@@ -16,10 +16,11 @@ function HedNavbar() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="home">Home</Nav.Link>
+                            <Nav.Link href="/">Home</Nav.Link>
                             <Nav.Link href="aboutus">About</Nav.Link>
                             <Nav.Link href="blog">Blog</Nav.Link>
                             <Nav.Link href="news">News</Nav.Link>
+                            <Nav.Link href="market">Market</Nav.Link>
                             <Nav.Link href="featuresPage">Features</Nav.Link>
                             <NavDropdown title="Services" id="services-dropdown">
                                 <NavDropdown.Item href="Services">Service 1</NavDropdown.Item>
