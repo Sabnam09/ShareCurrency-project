@@ -179,7 +179,7 @@ l.blog-sec-bg {
 /* media querry for less than 992px screen */
 @media screen and (max-width: 992px) {
     .blog-sec {
-        padding: 50px 50px;
+        padding: 50px 10px;
     }
 
     .recent-post,

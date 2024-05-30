@@ -42,7 +42,7 @@ const Footer = () => {
                                 <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
                                     <h5 class="text-uppercase  mb-4 pb-1 ms-lg-4 ps-lg-2">Courses </h5>
 
-                                    <ul class="fa-ul">
+                                    <ul class="fa-ul footer-listss">
                                         <li class="mb-3">
                                             <span class="fa-li"><HiChevronDoubleRight /></span><span class="ms-2">The Trade Warrior</span>
                                         </li>
@@ -56,7 +56,7 @@ const Footer = () => {
                                             <span class="fa-li"><HiChevronDoubleRight /></span><span class="ms-2">DISCLAIMER</span>
                                         </li>
                                         <li class="mb-3">
-                                            <span class="fa-li"><HiChevronDoubleRight /></span><span class="ms-2"> ERMS AND CONDITIONS</span>
+                                            <span class="fa-li"><HiChevronDoubleRight /></span><span class="ms-2"> TERMS AND CONDITIONS</span>
                                         </li>
 
 

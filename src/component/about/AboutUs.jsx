@@ -13,14 +13,14 @@ const AboutUs = () => {
             <section className='about-sec1'>
                 <div className="container">
                     <div className="row">
-                        <div className="col-5 about-sec1coltext">
+                        <div className="col-md-5 about-sec1coltext">
                             <div>
                                 <h5>ABOUT US</h5>
                                 <h2>ShareWolves Training Academy</h2>
                                 <p>We’re passionate about educating people to invest and achieve financial independence in stock market and derivatives trading. Our goal is to provide you with the ultimate trading experience. Our institutional technical research and strategies in accordance with upcoming events in current global and domestic markets help our clients and students to stay ahead of the curve.</p>
                             </div>
                         </div>
-                        <div className='col-6'>
+                        <div className='col-md-6'>
                             <img src="images/10289216.jpg" className='img-fluid leftright-animation'></img>
                             {/* <img src="https://softivus.com/coinx/main/assets/images/faq-thumb.png" className='img-fluid leftright-animation'></img> */}
                         </div>
@@ -88,7 +88,7 @@ const AboutUs = () => {
             <section className='about-sec-4'>
                 <div className="container">
                     <div className="row about-sec-4row1">
-                        <div className="col-6">
+                        <div className="col-md-6 about-sec-4coltextimgg">
                             <img src='https://www.sharewolves.com/images/resource/1.png' className='img-fluid'>
                             {/* <div className='about-sec-4imgheds'>
                                 <h2>Mr. Chirag Bavisi</h2>
@@ -96,7 +96,7 @@ const AboutUs = () => {
                             </div> */}
                             </img>
                         </div>
-                        <div className="col-6 about-sec-4coltext">
+                        <div className="col-md-6 about-sec-4coltext">
                            <div>
                            <h1>Our Mentor</h1>
                             <ul>
@@ -111,7 +111,7 @@ const AboutUs = () => {
                     </div>
                     <div className="row about-sec-4row2">
                         
-                        <div className="col-6 about-sec-4coltext">
+                        <div className="col-md-6 about-sec-4coltext">
                            <div>
                            <h1>Our Mentor</h1>
                             <ul>
@@ -123,7 +123,7 @@ const AboutUs = () => {
                             </ul>
                            </div>
                         </div>
-                        <div className="col-6">
+                        <div className="col-md-6 about-sec-4coltextimgg">
                             <img src='https://www.sharewolves.com/images/resource/2.png' className='img-fluid'>
                             </img>
                         </div>

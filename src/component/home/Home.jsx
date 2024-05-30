@@ -22,10 +22,10 @@ function Home() {
             <section className='home-sec-1'>
                 <div className="container">
                     <div className="row">
-                        <div className="col-6 home-sec-1col1">
+                        <div className="col-md-6 home-sec-1col1">
                             <img src='https://web.moxcreative.com/ventuure/wp-content/uploads/sites/20/2023/03/working-with-investments-.jpg' className='img-fluid'></img>
                         </div>
-                        <div className="col-6 home-sec-1col2">
+                        <div className="col-md-6 home-sec-1col2">
                             <h2>We are the magic behind the company’s best days.</h2>
                             <p>Elementum ac ornare torquent sagittis nam ligula dictum vehicula facilisi fames placerat. Orci nisl facilisi ac nulla vehicula. Hendrerit lobortis litora nunc per commodo potenti.</p>
                             <Link to="/">Discover More</Link>
@@ -156,16 +156,16 @@ function Home() {
 
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-3 recentProjectssecolc">
+                        <div className="col-md-3 recentProjectssecolc">
                             <img className="card-img-top" src="https://www.bankrate.com/2020/08/24165602/what-is-bitcoin.jpeg?auto=webp&optimize=high" alt="Card image" />
                         </div>
-                        <div className="col-3 recentProjectssecolc">
+                        <div className="col-md-3 recentProjectssecolc">
                             <img className="card-img-top" src="https://skycommodity.in/static/media/day.13848a8db7a50bff9889.jpg" alt="Card image" />
                         </div>
-                        <div className="col-3 recentProjectssecolc">
+                        <div className="col-md-3 recentProjectssecolc">
                             <img className="card-img-top" src="https://www.usatoday.com/money/blueprint/images/uploads/2023/02/08004747/how-to-buy-bitcoin-e1691470121926.jpg" alt="Card image" />
                         </div>
-                        <div className="col-3 recentProjectssecolc">
+                        <div className="col-md-3 recentProjectssecolc">
                             <img className="card-img-top" src="https://imageio.forbes.com/specials-images/dam/imageserve/908633080/960x0.jpg?height=474&width=711&fit=bounds" alt="Card image" />
                         </div>
                     </div>
@@ -175,10 +175,10 @@ function Home() {
             <section className='sec-progressbar'>
                 <div className="container">
                     <div className="row">
-                        <div className="col-6 home-sec-1col1">
+                        <div className="col-md-6 home-sec-1col1">
                             <img src='https://web.moxcreative.com/ventuure/wp-content/uploads/sites/20/2023/03/working-with-investments-.jpg' className='img-fluid'></img>
                         </div>
-                        <div className="col-6 sec-progressbarcoltext ">
+                        <div className="col-md-6 sec-progressbarcoltext ">
                             <h2>Think fresh, work faster, grow smarter, save money.</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
 
@@ -209,7 +209,7 @@ function Home() {
                         <p> <span>Meet Our</span> Teams </p>
                     </div>
                     <div className="row">
-                        <div className="col-4 mt-5">
+                        <div className="col-md-4 mt-5">
                             <div className="card blog-card">
                                 <img src="https://max-themes.net/demos/oregon/upload/personnel-1.jpg" class="imggg img-fluid attachment-digibit-blog-ii-column size-digibit-blog-ii-column" alt=""></img>
                                 <div className="card-body blog-card-body">
@@ -219,9 +219,9 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-4 mt-5">
+                        <div className="col-md-4 mt-5">
                             <div className="card blog-card">
-                                <img src="https://max-themes.net/demos/oregon/upload/personnel-6.jpg" class="img-fluid attachment-digibit-blog-ii-column size-digibit-blog-ii-column" alt=""></img>
+                                <img src="https://max-themes.net/demos/oregon/upload/personnel-6.jpg" class="imggg img-fluid attachment-digibit-blog-ii-column size-digibit-blog-ii-column" alt=""></img>
                                 <div className="card-body blog-card-body">
                                     <h4 className='namess'>John Smith</h4>
                                     <p className='meet_teamhed'>Business Planner</p>
@@ -229,9 +229,9 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-4 mt-5">
+                        <div className="col-md-4 mt-5">
                             <div className="card blog-card">
-                                <img src="https://max-themes.net/demos/oregon/upload/personnel-5.jpg" class="img-fluid attachment-digibit-blog-ii-column size-digibit-blog-ii-column" alt=""></img>
+                                <img src="https://max-themes.net/demos/oregon/upload/personnel-5.jpg" class="imggg img-fluid attachment-digibit-blog-ii-column size-digibit-blog-ii-column" alt=""></img>
                                 <div className="card-body blog-card-body">
                                     <h4 className='namess'>Simon Cruise</h4>
                                     <p className='meet_teamhed'>Wealth Manager</p>

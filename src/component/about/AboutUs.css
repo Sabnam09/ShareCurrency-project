@@ -12,10 +12,12 @@
     justify-content: center;
     color: white;
 }
-
+.about-sec1{
+    padding: 80px 10px;
+}
 .about-sec1coltext {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .about-sec1coltext h5 {
@@ -190,3 +192,17 @@
 .about-sec-4row2{
     margin-top: 50px;
 }
+
+
+
+
+@media (max-width: 768px) {
+    .about-sec-4coltext{
+        display: flex;
+        justify-content: center;
+    }
+    .about-sec-4coltextimgg{
+        text-align: center;
+    }
+  }
+  

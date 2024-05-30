@@ -14,7 +14,9 @@ import ContactUs from './component/user/ContactUs';
 import Login from './component/user/Login';
 import Register from './component/user/Register';
 import Services from './component/Services/Services';
-
+import TermAndCondition from './component/pages/TermAndCondition';
+import PrivacyPolicy from './component/pages/PrivacyPolicy'
+import MarketingPage from './component/pages/MarketingPage';
 function App() {
 
   return (
@@ -34,6 +36,11 @@ function App() {
             <Route path='/login' element={<Login />}></Route>
             <Route path='/register' element={<Register />}></Route>
             <Route path='/contactus' element={<ContactUs />}></Route>
+
+              {/* Terms and Condition , Privacy & Policy Page , Marketing */}
+            <Route path="/TermAndCondition" element={<TermAndCondition />} />
+            <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+            <Route path="/MarketingPage" element={<MarketingPage />} />
           </Routes>
         </div>
         <Footer />

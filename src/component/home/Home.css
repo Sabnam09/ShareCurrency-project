@@ -47,7 +47,7 @@
 .home-sec-1col1{
   padding: 2em 2em 2em 2em;
     background-image: url(https://web.moxcreative.com/ventuure/wp-content/uploads/sites/20/2023/03/Pattern_1.png);
-    background-position: bottom left;
+    background-position: top left;
     background-repeat: no-repeat;
     background-size: 100px auto;
 }
@@ -275,4 +275,5 @@
 
 .recentProjectssecolc img{
   height: 200px;
+  margin-bottom: 20px;
 }
