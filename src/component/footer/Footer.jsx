@@ -4,6 +4,7 @@ import { HiChevronDoubleRight } from "react-icons/hi2";
 import { FaFacebookF, FaDribbble, FaTwitter, FaGooglePlusG } from 'react-icons/fa';
 import { FaMapMarkerAlt, FaClock, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 import { IoRocketOutline } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -44,19 +45,26 @@ const Footer = () => {
 
                                     <ul class="fa-ul footer-listss">
                                         <li class="mb-3">
-                                            <span class="fa-li"><HiChevronDoubleRight /></span><span class="ms-2">The Trade Warrior</span>
+                                            <span class="fa-li"><HiChevronDoubleRight /></span>
+                                            <Link class="ms-2" to="/blog">Blog</Link>
                                         </li>
                                         <li class="mb-3">
-                                            <span class="fa-li"><HiChevronDoubleRight /></span><span class="ms-2">Pro Trader</span>
+                                            <span class="fa-li"><HiChevronDoubleRight /></span>
+                                            <Link class="ms-2" to="/news">News</Link>
                                         </li>
                                         <li class="mb-3">
-                                            <span class="fa-li"><HiChevronDoubleRight /></span><span class="ms-2">PRIVACY POLICY</span>
+                                            <span class="fa-li"><HiChevronDoubleRight /></span>
+                                            <Link class="ms-2" to="/news">Disclaimer</Link>
                                         </li>
                                         <li class="mb-3">
-                                            <span class="fa-li"><HiChevronDoubleRight /></span><span class="ms-2">DISCLAIMER</span>
+                                            <span class="fa-li"><HiChevronDoubleRight /></span>
+                                            <Link class="ms-2" to="/news">Privacy Policy</Link>
+
                                         </li>
                                         <li class="mb-3">
-                                            <span class="fa-li"><HiChevronDoubleRight /></span><span class="ms-2"> TERMS AND CONDITIONS</span>
+                                            <span class="fa-li"><HiChevronDoubleRight /></span>
+                                            <Link class="ms-2" to="/">Terms & Condition</Link>
+
                                         </li>
 
 

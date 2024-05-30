@@ -17,3 +17,10 @@
 .footer-listss li{
      list-style: none;
 }
+.footer-listss li a{
+     color: white;
+     text-decoration: none;
+}
+.footer-listss li a:hover{
+     color: skyblue;
+}
