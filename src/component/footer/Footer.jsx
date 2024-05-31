@@ -12,35 +12,25 @@ const Footer = () => {
     return (
 
         <>
-            <div class="bg-primary  rocket_section position-relative d-flex justify-content-center align-items-center">
+            <div class="footermainsec rocket_section position-relative d-flex justify-content-center align-items-center">
                 <div>
+                    <footer class="footer-mainn text-white text-lg-start">
 
-                    <footer class="text-white text-center text-lg-start">
+                        <div class=" container">
 
-                        <div class=" container p-4">
+                            <div class="row">
 
-                            <div class="row mt-4">
-
-                                <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-                                    <h5 class="text-uppercase mb-4">About company</h5>
-
-                                    <p>
-
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem quis maxime mollitia quos laudantium! Officia adipisci debitis amet impedit delectus accusamus tempore et cumque. Illum placeat magni voluptate exercitationem dolor.
-                                        markets,
-                                        supported by regular events and training courses.
-                                    </p>
-
-                                    <div class="mt-4">
-
+                                <div class="col-lg-3 col-md-12 fottermobile-iconimg">
+                                    <img className='footrmobile-animation' src="images/phinom-1-2x.png" alt="photo-md"></img>
+                                    {/* <div class="mt-4">
                                         <a href="#" className="btn btn-floating btn-primary btn-lg"><FaFacebookF /></a>
                                         <a href="#" className="btn btn-floating btn-primary btn-lg"><FaDribbble /></a>
                                         <a href="#" className="btn btn-floating btn-primary btn-lg"><FaTwitter /></a>
                                         <a href="#" className="btn btn-floating btn-primary btn-lg"><FaGooglePlusG /></a>
-                                    </div>
+                                    </div> */}
                                 </div>
 
-                                <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+                                <div class="col-lg-5 col-md-6 footfrtextcol">
                                     <h5 class="text-uppercase  mb-4 pb-1 ms-lg-4 ps-lg-2">Courses </h5>
 
                                     <ul class="fa-ul footer-listss">
@@ -74,7 +64,7 @@ const Footer = () => {
 
 
 
-                                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                                <div class="col-lg-3 col-md-6 footfrtextcol">
                                     <h5 class="text-uppercase mb-4">Contact Info</h5>
                                     <div>
                                         <div className='mb-3'>
@@ -103,7 +93,7 @@ const Footer = () => {
 
 
                 </div>
-                <section className='roket_wraper bg-secondary w-75 mx-auto p-3 rounded-3  '>
+                <section className='roket_wraper'>
                     <div className='row'>
                         <div className="col-md-6 text-white  d-flex justify-content-center gap-4 alin-items-center">
                             <div>
@@ -133,9 +123,9 @@ const Footer = () => {
 
             </div>
 
-            <div class=" text-white container-fluid text-center p-3 bg-secondary" >
+            <div class="container-fluid footer-copyright" >
                 © 2024 Copyright:
-                <a class="text-white" href=""> SRN Infotech.com</a>
+                <Link to="/">SRN Infotech.com</Link>
             </div>
         </>
 

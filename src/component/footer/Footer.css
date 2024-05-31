@@ -4,23 +4,116 @@
 
 
 .rocket_section {
-     margin-top: 100px;
+     /* margin-top: 25px; */
      padding: 50px 0px 0px 0px
 }
 
 .roket_wraper {
      position: absolute;
-     top: -50px;
+     top: -80px;
+     padding: 35px 30px;
+     background: darkgoldenrod;
+     border-radius: 13px;
+     width: 90%;
 
-}    
-
-.footer-listss li{
+}
+.text-lg-start {
+     margin-top: 60px;
+}
+.footer-copyright{
+     text-align: center;
+     background-color: #0177c1;
+     color: white;
+     padding: 6px 0px;
+}
+.footer-copyright a{
+     color: skyblue;
+}
+.footer-copyright a:hover{
+     color: goldenrod;
+}
+.footer-listss li {
      list-style: none;
 }
-.footer-listss li a{
+
+.footer-listss li a {
      color: white;
      text-decoration: none;
 }
-.footer-listss li a:hover{
+
+.footer-listss li a:hover {
      color: skyblue;
+}
+
+.fottermobile-iconimg img {
+     height: 350px;
+     /* width: 240px; */
+}
+.footfrtextcol{
+     margin-top: 35px;
+     padding: 0px 30px;
+}
+
+.footermainsec{
+     background-image: url(https://t4.ftcdn.net/jpg/04/72/60/39/360_F_472603936_gtZ5ULKjzrVqN5nvVl9tiFJtak2ikbnb.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position:top;
+     padding-bottom: 20px;
+}
+.footermainsec::before{
+     background-color: skyblue;
+}
+
+
+.footrmobile-animation {
+     animation: footrmobl 4s linear infinite;
+   }
+   
+   @keyframes footrmobl {
+     0% {
+       transform: translateY(0) rotateY(0deg);
+     }
+   
+     50% {
+       transform: translateY(-20px) rotateY(180deg); /* Rotate 180 degrees for flip effect */
+     }
+   
+     100% {
+       transform: translateY(0) rotateY(360deg); /* Complete the full rotation */
+     }
+   }
+   
+
+
+@media (max-width: 992px) {
+     .footer-main {
+          text-align: start !important;
+     }
+
+     .fottermobile-iconimg {
+          text-align: center !important;
+     }
+
+     .fottermobile-iconimg img {
+          margin: 60px 30px;
+     }
+
+}
+
+@media (max-width: 768px) {
+     .rocket_section {
+          margin-top: 30px;
+          padding: 50px 0px 0px 0px;
+     }
+}
+
+@media (max-width: 576px) {
+     .rocket_section {
+          margin-top: 30px;
+          padding: 50px 0px 0px 0px;
+     }
+     .fottermobile-iconimg img {
+          margin-top: 100px;
+      }
 }
