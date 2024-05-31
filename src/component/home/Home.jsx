@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { MdVerified } from "react-icons/md";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { FaBusinessTime } from "react-icons/fa6";
+import { MdDateRange } from "react-icons/md";
 
 function Home() {
     AOS.init();
@@ -125,42 +126,63 @@ function Home() {
                                 <p className="service-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                                     Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                             </div>
+                        </div>
 
-                            <div className="row  aos-init" data-aos="fade-up">
-                                <div className="col-md-4">
-                                    <div className="container">
-                                        <div className="img-fluid card mb-5 service-card-radius">
-                                            <img className="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ94ILLOOZTggwXbro1UH9PgAnbgwSHuwkULw&s" alt="Card image" />
-                                            <div className="card-body">
-                                                <h5 className="card-title service-card-title">Bitcoin Transaction</h5>
-                                                <p className="service-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error
-                                                    accusamus, odio suscipit modi eligendi reprehenderit?</p>
-                                                <div className="service-card-btn">
-                                                    <a href="#">Read More</a>
-                                                </div>
+                        <div className="row  aos-init" data-aos="fade-up">
+                            <div className="col-md-4">
+                                <div className="container">
+                                    <div className="img-fluid card mb-5 service-card-radius">
+                                        <img className="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ94ILLOOZTggwXbro1UH9PgAnbgwSHuwkULw&s" alt="Card image" />
+                                        <div className="card-body">
+                                            <h5 className="card-title service-card-title">Bitcoin Transaction</h5>
+                                            <p className="service-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error
+                                                accusamus, odio suscipit modi eligendi reprehenderit?</p>
+                                            <div className="service-card-btn">
+                                                <a href="#">Read More</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-4">
-                                    <div className="container">
-                                        <div className="img-fluid card mb-5 service-card-radius">
-                                            <img className="card-img-top" src="https://skycommodity.in/static/media/Trade.9c6811b57597c2899f3a.webp" alt="Card image" />
-                                            <div className="card-body">
-                                                <h5 className="card-title service-card-title">Bitcoin Mining</h5>
-                                                <p className="service-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error
-                                                    accusamus, odio suscipit modi eligendi reprehenderit?</p>
-                                                <div className="service-card-btn">
-                                                    <a href="#">Read More</a>
-                                                </div>
+                            </div>
+                            <div className="col-md-4">
+                                <div className="container">
+                                    <div className="img-fluid card mb-5 service-card-radius">
+                                        <img className="card-img-top" src="https://skycommodity.in/static/media/Trade.9c6811b57597c2899f3a.webp" alt="Card image" />
+                                        <div className="card-body">
+                                            <h5 className="card-title service-card-title">Bitcoin Mining</h5>
+                                            <p className="service-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error
+                                                accusamus, odio suscipit modi eligendi reprehenderit?</p>
+                                            <div className="service-card-btn">
+                                                <a href="#">Read More</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                            <div className="col-md-4">
+                                <div className="container">
+                                    <div className="img-fluid card mb-5 service-card-radius">
+                                        <img className="card-img-top" src="https://academy-public.coinmarketcap.com/srd-optimized-uploads/6b971d4a6ba1435a853e3fea842d662d.webp" alt="Card image" />
+                                        <div className="card-body">
+                                            <h5 className="card-title service-card-title">Bitcoin Service</h5>
+                                            <p className="service-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error
+                                                accusamus, odio suscipit modi eligendi reprehenderit?</p>
+                                            <div className="service-card-btn">
+                                                <a href="#">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className="row aos-init" data-aos="fade-up">
+                            <div className="row">
                                 <div className="col-md-4">
                                     <div className="container">
                                         <div className="img-fluid card mb-5 service-card-radius">
-                                            <img className="card-img-top" src="https://academy-public.coinmarketcap.com/srd-optimized-uploads/6b971d4a6ba1435a853e3fea842d662d.webp" alt="Card image" />
+                                            <img className="card-img-top" src="https://media.istockphoto.com/id/1304093999/photo/bitcoin-e-commerce-concept-on-digital-screen.jpg?s=612x612&w=0&k=20&c=H_aL2IvK90193-D8LEsuQGpgKYio0-Ls1-DMylZ41bY=" alt="Card image" />
                                             <div className="card-body">
                                                 <h5 className="card-title service-card-title">Bitcoin Service</h5>
                                                 <p className="service-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error
@@ -172,52 +194,31 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-
-
-                            <div className="row service-ro aos-init" data-aos="fade-up">
-                                <div className="row">
-                                    <div className="col-md-4">
-                                        <div className="container">
-                                            <div className="img-fluid card mb-5 service-card-radius">
-                                                <img className="card-img-top" src="https://media.istockphoto.com/id/1304093999/photo/bitcoin-e-commerce-concept-on-digital-screen.jpg?s=612x612&w=0&k=20&c=H_aL2IvK90193-D8LEsuQGpgKYio0-Ls1-DMylZ41bY=" alt="Card image" />
-                                                <div className="card-body">
-                                                    <h5 className="card-title service-card-title">Bitcoin Service</h5>
-                                                    <p className="service-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error
-                                                        accusamus, odio suscipit modi eligendi reprehenderit?</p>
-                                                    <div className="service-card-btn">
-                                                        <a href="#">Read More</a>
-                                                    </div>
+                                <div className="col-md-4">
+                                    <div className="container">
+                                        <div className="img-fluid card mb-5 service-card-radius">
+                                            <img className="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRielfOHVewQ9yYXJCY7VjidSW-mVEB00sq_w&s" alt="Card image" />
+                                            <div className="card-body">
+                                                <h5 className="card-title service-card-title">Bitcoin Tranjaction</h5>
+                                                <p className="service-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error
+                                                    accusamus, odio suscipit modi eligendi reprehenderit?</p>
+                                                <div className="service-card-btn">
+                                                    <a href="#">Read More</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-md-4">
-                                        <div className="container">
-                                            <div className="img-fluid card mb-5 service-card-radius">
-                                                <img className="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRielfOHVewQ9yYXJCY7VjidSW-mVEB00sq_w&s" alt="Card image" />
-                                                <div className="card-body">
-                                                    <h5 className="card-title service-card-title">Bitcoin Tranjaction</h5>
-                                                    <p className="service-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error
-                                                        accusamus, odio suscipit modi eligendi reprehenderit?</p>
-                                                    <div className="service-card-btn">
-                                                        <a href="#">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-4">
-                                        <div className="container">
-                                            <div className="img-fluid card mb-5 service-card-radius">
-                                                <img className="card-img-top" src="https://skycommodity.in/static/media/day.13848a8db7a50bff9889.jpg" alt="Card image" />
-                                                <div className="card-body">
-                                                    <h5 className="card-title service-card-title">Bitcoin Mining</h5>
-                                                    <p className="service-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error
-                                                        accusamus, odio suscipit modi eligendi reprehenderit?</p>
-                                                    <div className="service-card-btn">
-                                                        <a href="#">Read More</a>
-                                                    </div>
+                                </div>
+                                <div className="col-md-4">
+                                    <div className="container">
+                                        <div className="img-fluid card mb-5 service-card-radius">
+                                            <img className="card-img-top" src="https://skycommodity.in/static/media/day.13848a8db7a50bff9889.jpg" alt="Card image" />
+                                            <div className="card-body">
+                                                <h5 className="card-title service-card-title">Bitcoin Mining</h5>
+                                                <p className="service-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error
+                                                    accusamus, odio suscipit modi eligendi reprehenderit?</p>
+                                                <div className="service-card-btn">
+                                                    <a href="#">Read More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -225,6 +226,7 @@ function Home() {
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>
@@ -329,6 +331,58 @@ function Home() {
                 </div>
             </section>
 
+            <section className='homnewssection'>
+                <div className="container">
+                  <div className="service-head">
+                        <p className='mb-5'> <span>Latest</span> News </p>
+                    </div >
+                    <div className="row  aos-init" data-aos="fade-up">
+                        <div className="col-md-4">
+                            <div className="container">
+                                <div className="img-fluid card mb-5 homenews-card-radius">
+                                    <img className="card-img-top" src="https://avitex.vn/html/finatex/assets/images/blog/item11.png" alt="Card image" />
+                                    <div className="card-body homnewscardbody">
+                                        <Link to="/">Ci Financial Sells RIA Stake In New Expansion Strategy</Link>
+                                        <div className='homenewsiconsdiv'>
+                                        <p>by <span className='homenewsiconsspan1'>Avitex</span></p>
+                                        <MdDateRange className='mt-1 me-2'/> <span className='homenewsiconsspan2'>2 days ago</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="container">
+                                <div className="img-fluid card mb-5 homenews-card-radius">
+                                    <img className="card-img-top" src="https://avitex.vn/html/finatex/assets/images/blog/item13.png" alt="Card image" />
+                                    <div className="card-body homnewscardbody">
+                                        <Link to="/">Barred Financial Advisors Charged In Millions</Link>
+                                        <div className='homenewsiconsdiv'>
+                                        <p>by <span className='homenewsiconsspan1'>Avitex</span></p>
+                                        <MdDateRange className='mt-1 me-2'/> <span className='homenewsiconsspan2'>1 days ago</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="container">
+                                <div className="img-fluid card mb-5 homenews-card-radius">
+                                    <img className="card-img-top" src="https://avitex.vn/html/finatex/assets/images/blog/item12.png" alt="Card image" />
+                                    <div className="card-body homnewscardbody">
+                                        <Link to="/">Retirement Planning Strategy</Link>
+                                        <div className='homenewsiconsdiv'>
+                                        <p>by <span className='homenewsiconsspan1'>Avitex</span></p>
+                                        <MdDateRange className='mt-1 me-2'/> <span className='homenewsiconsspan2'>2 days ago</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section className="homeaboutsec">
                 <div className="container-fluid ">
                     <div className="service-head">
@@ -379,6 +433,8 @@ function Home() {
                     </div>
                 </div >
             </section >
+
+            
 
             <section className='meetOurTeamsec'>
                 <div className="container">
