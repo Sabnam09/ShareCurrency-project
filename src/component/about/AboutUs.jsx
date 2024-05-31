@@ -1,9 +1,33 @@
 import React from 'react'
 import "./AboutUs.css"
 import { FaArrowRight } from "react-icons/fa6";
+import { FaBars,FaPlus, FaMinus } from 'react-icons/fa'; 
+import { useState } from 'react';
+import { Container,Row, Col } from 'react-bootstrap';
 
 
 const AboutUs = () => {
+
+    const [activeIndex, setActiveIndex] = useState(null);
+
+    const toggleParagraph = (index) => {
+      setActiveIndex(activeIndex === index ? null : index);
+    };
+  
+    const headings = [
+      'Integrity', 'Respect', 'Responsbility',
+      'Compassion', 'Creativity', 'Achievement'
+    ];
+  
+    const paragraphs = [
+      'We uphold honesty, truthfulness, and ethical behavior in all aspects of life our all clients.',
+      'We treat our clients with courtesy, consideration, and dignity, regardless of their background of beliefs. ',
+      'We take ownership of your action and obligation, and fulfilling your commitments.',
+      'We demonstrate empathy and kindness toward our clients. especially in time of need or suffering.',
+      'We nurture you imagination and explain yourself through artistic or innovative endeavors.',
+      'We strive for excellence, setting goals, and working with our clients diligently to accompolish them.'
+    ];
+  
 
     return (
         <>
@@ -85,6 +109,36 @@ const AboutUs = () => {
                 </div>
             </section>
 
+            <div className="background-section">
+      <div className="banner">
+        <h1 className="hero-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, ipsa.</h1>
+        <Row>
+          <Col lg={12}>        
+        <div className="blocks">
+          <div className="block block1">
+            <FaBars size={40} />
+            <p>Lorem, ipsum dolor.</p>
+          </div>
+          <div className="block block2">
+            <FaBars size={40} />
+            <p>Lorem ipsum dolor.</p>
+          </div>
+          <div className="block block3">
+            <FaBars size={40} />
+            <p>Lorem ipsum dolor.</p>
+          </div>
+          <div className="block block4">
+            <FaBars size={40} />
+            <p>Lorem ipsum dolor</p>
+          </div>
+        </div>
+        </Col>
+        </Row>
+
+      </div>
+    </div>
+
+
             <section className='about-sec-4'>
                 <div className="container">
                     <div className="row about-sec-4row1">
@@ -130,6 +184,37 @@ const AboutUs = () => {
                     </div>
                 </div>
             </section>
+
+            <Container>
+    <div className='our-value-sec'>
+    <h3>OUR VALUES</h3>
+    </div>
+    <div className="value-section">
+      <div className="left-column">
+        {headings.slice(0, 3).map((heading, index) => (
+          <div key={index} className="value-sec-item">
+            <div className="heading-sec" onClick={() => toggleParagraph(index)}>
+              {heading}
+              {activeIndex === index ? <FaMinus /> : <FaPlus />}
+            </div>
+            {activeIndex === index && <p>{paragraphs[index]}</p>}
+          </div>
+        ))}
+      </div>
+      <div className="right-column">
+        {headings.slice(3).map((heading, index) => (
+          <div key={index + 3} className="value-sec-item">
+            <div className="heading-sec" onClick={() => toggleParagraph(index + 3)}>
+              {heading}
+              {activeIndex === index + 3 ? <FaMinus /> : <FaPlus />}
+            </div>
+            {activeIndex === index + 3 && <p>{paragraphs[index + 3]}</p>}
+          </div>
+        ))}
+      </div>
+    </div>
+    
+    </Container>
 
         </>
     )

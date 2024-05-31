@@ -190,3 +190,151 @@
 .about-sec-4row2{
     margin-top: 50px;
 }
+
+
+
+
+  /* Our Field Section.css */
+  .background-section {
+    position: relative;
+    background-image: url('../../assets/stockimg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .hero-text {
+    font-size: 3em;
+    color: white;
+    margin-bottom: 40px;
+  }
+  
+  .blocks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .block {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background 0.3s, transform 0.3s;
+    cursor: pointer;
+  }
+  
+  .block:hover {
+    background: rgba(255, 255, 255, 0.4); 
+    transform: scale(1.05); 
+  }
+  
+  .block p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: white;
+  }
+  
+  .block1, .block3 {
+    align-self: flex-start;
+  }
+  
+  .block2, .block4 {
+    align-self: flex-end;
+    margin-top: 50px; 
+  }
+  @media screen and (max-width: 768px) {
+    .blocks {
+      flex-direction: column;
+      align-items: center; 
+    }
+    
+    .block {
+      width: 80%; 
+    }
+    
+    .block2, .block4 {
+      margin-top: 20px; 
+    }
+    .background-section {
+      height: 1150px;
+    }
+    
+  }
+  
+  
+  .Container {
+    max-width: 100%; 
+    margin: 0 auto; 
+  }
+  
+  .value-section {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .left-column, .right-column {
+    width: 47%; 
+  }
+  
+  .value-sec-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background: #f9f9f9;
+  }
+  
+  .our-value-sec h3 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .heading-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+  
+  .heading-sec svg {
+    margin-left: 10px;
+  }
+  
+  .heading-sec p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333;
+  }
+  
+  /* Responsive Styling */
+  @media screen and (max-width: 768px) {
+    .left-column, .right-column {
+      width: 100%; 
+    }
+  }
+  
