@@ -18,9 +18,7 @@ function HedNavbar() {
                         <Nav className="me-auto">
                             <Nav.Link href="/">Home</Nav.Link>
                             <Nav.Link href="aboutus">About</Nav.Link>
-                            <Nav.Link href="blog">Blog</Nav.Link>
-                            <Nav.Link href="news">News</Nav.Link>
-                            <Nav.Link href="market">Market</Nav.Link>
+                            <Nav.Link href="marketingPage">Market</Nav.Link>
                             <Nav.Link href="featuresPage">Features</Nav.Link>
                             <NavDropdown title="Services" id="services-dropdown">
                                 <NavDropdown.Item href="Services">Service 1</NavDropdown.Item>

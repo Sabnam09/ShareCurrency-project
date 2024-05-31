@@ -1,76 +1,135 @@
 .home-sec-bg {
-  background-image: url(https://html.yogsthemes.com/demo/fico/images/main-slider/image-1.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 550px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: wheat;
-  opacity: 0.9;
-  z-index: -1;
-  padding: 10px 60px;
+  position: relative;
 }
 
-.home-sec-bg button {
+.homesecslider-item {
+  position: relative;
+}
+
+.homesec-slider-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  /* Optional: To add a dark overlay */
+  z-index: 1;
+}
+
+.homesec-carousel-img-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: white;
+  /* Optional: To ensure text is visible on all images */
+  text-align: center;
+  /* Center-align text */
+}
+
+.homesec-carousel-text {
+  justify-content: center;
+  /* Center the text horizontally */
+}
+
+.homesec-carousel-text .col-8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-slider-texts button,
+.home-slider-texts h1,
+.home-slider-texts p,
+.home-slider-texts a {
+  margin-bottom: 15px;
+  /* Optional: Add spacing between elements */
+}
+
+.home-slider-texts button {
   background-color: #0c1f38;
   color: white;
   padding: 4px 20px;
   cursor: auto;
-  margin-bottom: 25px;
-  margin-top: 40px;
+  margin-bottom: 30px;
+  /* margin-top: 20px; */
   font-size: 13px;
 }
 
-.home-sec-bg h1 {
+.home-slider-texts h1 {
   font-weight: bold;
   font-size: 45px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
-.home-sec-bg p {
-  font-size: 18px;
+.home-slider-texts p {
+  font-size: 16px;
+  color: wheat;
+  margin-bottom: 50px;
 }
 
-.home-sec-bg a {
+.home-slider-texts a {
   background: skyblue;
   padding: 12px 23px;
   color: black;
   text-decoration: none;
   font-weight: bold;
-  margin-top: 20px;
+  border: 2px solid skyblue;
 }
-.home-sec-1{
+
+.home-slider-texts a:hover {
+  border: 2px solid skyblue;
+  background-color: transparent;
+  color: white;
+}
+
+
+
+.home-sec-1 {
   padding: 80px 20px;
 }
-.home-sec-1col1{
+
+.home-sec-1col1 {
   padding: 2em 2em 2em 2em;
-    background-image: url(https://web.moxcreative.com/ventuure/wp-content/uploads/sites/20/2023/03/Pattern_1.png);
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: 100px auto;
+  background-image: url(https://web.moxcreative.com/ventuure/wp-content/uploads/sites/20/2023/03/Pattern_1.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 100px auto;
 }
-.home-sec-1col1 img{
+
+.home-sec-1col1 img {
   border-radius: 10px;
 }
-.home-sec-1col2{
+
+.home-sec-1col2 {
   padding-top: 50px;
 }
-.home-sec-1col2 h2{
+
+.home-sec-1col2 h2 {
   font-weight: bold;
   margin-bottom: 30px;
 }
-.home-sec-1col2 p{
+
+.home-sec-1col2 p {
   line-height: 32px;
   margin-bottom: 25px;
 }
-.home-sec-1col2 a{
+
+.home-sec-1col2 a {
   background-color: skyblue;
   text-decoration: none;
   padding: 10px 12px;
   color: black;
   font-weight: bold;
+  border: 2px solid skyblue;
+
+}
+
+.home-sec-1col2 a:hover {
+  background-color: transparent;
+  border: 2px solid skyblue;
 }
 
 
@@ -118,7 +177,8 @@
 }
 
 .service-card-title {
-  font-size: 17px;
+  font-size: 19px;
+  font-weight: bold;
 }
 
 .service-card-p {
@@ -138,8 +198,9 @@
 
 .service-card-btn a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-weight: 200;
+  font-size: 12px;
 }
 
 .service-card-btn:hover {
@@ -150,16 +211,19 @@
 .service-card-btn:hover a {
   color: skyblue;
 }
-.meetOurTeamsec{
+
+.meetOurTeamsec {
   padding: 90px 20px;
 }
-.recentProjectssec{
+
+.recentProjectssec {
   padding: 90px 20px;
 }
+
 /* service section start*/
 
 /* Counter sec start */
-.counter-secmainn{
+.counter-secmainn {
   background-image: url(https://web.moxcreative.com/ventuure/wp-content/uploads/sites/20/2023/03/stock-market-display.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -250,7 +314,7 @@
 }
 
 
-.sec-progressbarcoltext{
+.sec-progressbarcoltext {
   padding-top: 50px;
 }
 
@@ -273,7 +337,83 @@
 }
 
 
-.recentProjectssecolc img{
+.recentProjectssecolc img {
   height: 200px;
   margin-bottom: 20px;
+}
+
+.homeaboutsec {
+  padding: 0px 15px;
+  padding-top: 60px;
+}
+
+.homboxxDown {
+  background-color: rgba(135, 207, 235, 0.349);
+  border-radius: 13px;
+  padding: 30px 35px;
+}
+
+.homboxxDown h5 {
+  color: brown;
+  font-weight: bold;
+}
+
+.homboxxDown svg {
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+
+.homboxxUp svg {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.homboxxUp {
+  background-color: rgba(135, 207, 235, 0.349);
+  border-radius: 13px;
+  padding: 30px 35px;
+  margin-top: -50px;
+}
+
+.homboxxUp h5 {
+  color: brown;
+  font-weight: bold;
+}
+
+.homeaboutsec-row {
+  padding: 30px 30px;
+}
+
+.homeaboutsec-roww {
+  margin-bottom: 30px;
+}
+
+.homeaboutsec-coltxt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeaboutsec-coltxt h2 {
+  color: navy;
+  font-weight: bold;
+}
+
+.hombox-animation {
+  animation: previewShapeY 4s linear infinite;
+}
+.homesec-slider-item img{
+  height: 600px;
+}
+
+@keyframes previewShapeY {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-20px); /* Adjust this value as needed for the desired distance */
+  }
+  100% {
+      transform: translateY(0);
+  }
 }

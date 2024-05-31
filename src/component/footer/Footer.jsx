@@ -54,16 +54,16 @@ const Footer = () => {
                                         </li>
                                         <li class="mb-3">
                                             <span class="fa-li"><HiChevronDoubleRight /></span>
-                                            <Link class="ms-2" to="/news">Disclaimer</Link>
+                                            <Link class="ms-2" to="/">Disclaimer</Link>
                                         </li>
                                         <li class="mb-3">
                                             <span class="fa-li"><HiChevronDoubleRight /></span>
-                                            <Link class="ms-2" to="/news">Privacy Policy</Link>
+                                            <Link class="ms-2" to="/privacyPolicy">Privacy Policy</Link>
 
                                         </li>
                                         <li class="mb-3">
                                             <span class="fa-li"><HiChevronDoubleRight /></span>
-                                            <Link class="ms-2" to="/">Terms & Condition</Link>
+                                            <Link class="ms-2" to="/termAndCondition">Terms & Condition</Link>
 
                                         </li>
 

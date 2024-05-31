@@ -1,12 +1,91 @@
 import React from 'react'
 import "./Home.css"
 import { Link } from 'react-router-dom';
+import { Carousel } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { MdVerified } from "react-icons/md";
+import { FaPeopleGroup } from "react-icons/fa6";
+import { FaBusinessTime } from "react-icons/fa6";
 
 function Home() {
+    AOS.init();
+
     return (
         <>
 
-            <div className="home-sec-bg" >
+            <section className='home-sec-bg'>
+                <Carousel id="carouselExampleControlsNoTouching" indicators={false} interval={2300}> {/* Adjust interval here */}
+                    <Carousel.Item className="homesec-slider-item">
+                        <div className="homesec-slider-bg"></div>
+                        <div className="container homesec-carousel-img-text">
+                            <div className="row homesec-carousel-text">
+                                <div className="col-8 c-text slide-1-h1">
+                                    <div className='home-slider-texts'>
+                                        <button>WELCOME TO SHARECURRENCY</button>
+                                        <h1>Consulting is a long-term investment in your goal’s future.</h1>
+                                        <p>Penatibus mi tempor volutpat taciti orci non dolor magnis dignissim facilisis. Vivamus vitae ultricies sagittis suspendisse montes tristique. Ligula tortor vulputate arcu mollis mus facilisi nisi habitant.</p>
+                                        <Link to="/">Discover More</Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <img
+                            src="https://html.yogsthemes.com/demo/fico/images/main-slider/image-1.jpg"
+                            className="d-block w-100"
+                            alt="..."
+                        />
+
+                    </Carousel.Item>
+
+                    <Carousel.Item className="homesec-slider-item">
+                        <div className="homesec-slider-bg"></div>
+                        <div className="container homesec-carousel-img-text">
+                            <div className="row homesec-carousel-text">
+                                <div className="col-8 c-text">
+                                    <div className='home-slider-texts'>
+                                        <button>WELCOME TO SHARECURRENCY</button>
+                                        <h1>Consulting is a long-term investment in your goal’s future.</h1>
+                                        <p>Penatibus mi tempor volutpat taciti orci non dolor magnis dignissim facilisis. Vivamus vitae ultricies sagittis suspendisse montes tristique. Ligula tortor vulputate arcu mollis mus facilisi nisi habitant.</p>
+                                        <Link to="/">Discover More</Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <img
+                            src="https://max-themes.net/demos/oregon/upload/shutterstock_158522279.jpg"
+                            className="d-block w-100"
+                            alt="..."
+                        />
+
+                    </Carousel.Item>
+
+                    <Carousel.Item className="homesec-slider-item">
+                        <div className="homesec-slider-bg"></div>
+                        <div className="container homesec-carousel-img-text">
+                            <div className="row homesec-carousel-text">
+                                <div className="col-8 c-text">
+                                    <div className='home-slider-texts'>
+                                        <button>WELCOME TO SHARECURRENCY</button>
+                                        <h1>Consulting is a long-term investment in your goal’s future.</h1>
+                                        <p>Penatibus mi tempor volutpat taciti orci non dolor magnis dignissim facilisis. Vivamus vitae ultricies sagittis suspendisse montes tristique. Ligula tortor vulputate arcu mollis mus facilisi nisi habitant.</p>
+                                        <Link to="/">Discover More</Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <img
+                            src="https://html.yogsthemes.com/demo/fico/images/main-slider/image-1.jpg"
+                            className="d-block w-100"
+                            alt="..."
+                        />
+
+                    </Carousel.Item>
+                </Carousel>
+            </section>
+
+
+
+            {/* <div className="home-sec-bg" >
                 <div className="row">
                     <div className="col-6">
                         <div>
@@ -17,7 +96,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <section className='home-sec-1'>
                 <div className="container">
@@ -84,6 +163,56 @@ function Home() {
                                             <img className="card-img-top" src="https://skycommodity.in/static/media/day.13848a8db7a50bff9889.jpg" alt="Card image" />
                                             <div className="card-body">
                                                 <h5 className="card-title service-card-title">Bitcoin Service</h5>
+                                                <p className="service-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error
+                                                    accusamus, odio suscipit modi eligendi reprehenderit?</p>
+                                                <div className="service-card-btn">
+                                                    <a href="#">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="row service-ro">
+                            <div className="row">
+                                <div className="col-md-4">
+                                    <div className="container">
+                                        <div className="img-fluid card mb-5 service-card-radius">
+                                            <img className="card-img-top" src="https://skycommodity.in/static/media/acess.0ac5e6e30766ac427224.webp" alt="Card image" />
+                                            <div className="card-body">
+                                                <h5 className="card-title service-card-title">Bitcoin Service</h5>
+                                                <p className="service-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error
+                                                    accusamus, odio suscipit modi eligendi reprehenderit?</p>
+                                                <div className="service-card-btn">
+                                                    <a href="#">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-4">
+                                    <div className="container">
+                                        <div className="img-fluid card mb-5 service-card-radius">
+                                            <img className="card-img-top" src="https://skycommodity.in/static/media/Trade.9c6811b57597c2899f3a.webp" alt="Card image" />
+                                            <div className="card-body">
+                                                <h5 className="card-title service-card-title">Bitcoin Tranjaction</h5>
+                                                <p className="service-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error
+                                                    accusamus, odio suscipit modi eligendi reprehenderit?</p>
+                                                <div className="service-card-btn">
+                                                    <a href="#">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-4">
+                                    <div className="container">
+                                        <div className="img-fluid card mb-5 service-card-radius">
+                                            <img className="card-img-top" src="https://skycommodity.in/static/media/day.13848a8db7a50bff9889.jpg" alt="Card image" />
+                                            <div className="card-body">
+                                                <h5 className="card-title service-card-title">Bitcoin Mining</h5>
                                                 <p className="service-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error
                                                     accusamus, odio suscipit modi eligendi reprehenderit?</p>
                                                 <div className="service-card-btn">
@@ -183,7 +312,7 @@ function Home() {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
 
                             <div className="App">
-                                    <h6>Business Strategy</h6>
+                                <h6>Business Strategy</h6>
                                 <div className="progress-container">
                                     <div className="progress-bar" style={{ width: '70%' }}>70%</div>
                                 </div>
@@ -199,9 +328,55 @@ function Home() {
                 </div>
             </section>
 
-            {/* <section className='meetOurteam'>
-                <h2>Meet Our Team</h2>
-            </section> */}
+            <section className="homeaboutsec" data-aos="flip-left">
+                <div className="container-fluid aos-init" data-aos="fade-up" data-aos-delay="100">
+                    <div className="service-head">
+                        <p className='mb-5'> <span>Abous</span> Us </p>
+                    </div >
+                    <div className="row homeaboutsec-row">
+                        <div className="col-lg-5 homeaboutsec-coltxt">
+                            <div>
+                                <h2>Know About Share Currency</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde necessitatibus, obcaecati esse ratione corrupti quae similique error sequi debitis sint inventore, odit, accusamus molestias magni a neque perspiciatis molestiae praesentium.</p>
+                            </div>
+                        </div>
+                        <div className="col-lg-6 homeaboutsec-colbox">
+                            <div className="row homeaboutsec-roww">
+                                <div className="hombox-animation col-sm-6">
+                                    <div className='homboxxDown'>
+                                        <MdVerified />
+                                        <h5>QUALITY</h5>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt deleniti dicta velit, modi nemo inventore, facilis necessitatibus ipsa, error dignissimos nobis unde.</p>
+                                    </div>
+                                </div>
+                                <div className="hombox-animation col-sm-6">
+                                    <div className='homboxxUp'>
+                                        <FaPeopleGroup />
+                                        <h5>CLIENT</h5>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt deleniti dicta velit, modi nemo inventore, facilis necessitatibus ipsa, error dignissimos nobis unde.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row homeaboutsec-roww">
+                                <div className="hombox-animation col-sm-6">
+                                    <div className='homboxxDown'>
+                                        <FaPeopleGroup />
+                                        <h5>CUSTOMER</h5>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt deleniti dicta velit, modi nemo inventore, facilis necessitatibus ipsa, error dignissimos nobis unde.</p>
+                                    </div>
+                                </div>
+                                <div className="hombox-animation col-sm-6">
+                                    <div className='homboxxUp'>
+                                        <FaBusinessTime />
+                                        <h5>INTEGRITY</h5>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt deleniti dicta velit, modi nemo inventore, facilis necessitatibus ipsa, error dignissimos nobis unde.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div >
+            </section >
 
             <section className='meetOurTeamsec'>
                 <div className="container">
