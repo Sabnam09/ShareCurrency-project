@@ -1,95 +1,35 @@
+   /* MarketingPage.css */
+
+   .area-chart-container{
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(166, 162, 162, 0.5);
+    margin-top: 50px;  
+   }
+   .chart-area{
+    width: 600px;
+   }
+   @media (max-width: 768px) {
+    .chart-area{
+      width: 100%;
+     }
+   }
   
-  /* / MarketingPage.css / */
-
-  .area-chart-container{
-   margin-bottom: 30px;
-   box-shadow: 0px 0px 10px rgba(166, 162, 162, 0.5);
-   margin-top: 50px; 
-  }
-
-  .area-chart-container h1{
-   margin-top: 40px;
-   text-align: center;
-  }
-
-  .area-chart-container h2{
-   font-size: 14px;
-   margin-top: 30px;
-   margin-left: 22px;
-   font-weight: bold;
-  }
-  
-  .table-container h2{
-   font-size: 18px;
-   font-weight: bold;
-
-  }
-
-  .commodity-table {
-   width: 100%;
-   border-collapse: collapse;
-   margin-top: 5px;
-   padding-bottom: 30px;
- }
-
- .commodity-table th {
-   background-color: #87ceeb;
-   border: 1px solid #ddd;
-   padding: 8px;
-   text-align: left;
- }
-
- .commodity-table td {
-   border: 1px solid #ddd;
-   padding: 8px;
-   text-align: left;
- }
-
- @media (max-width: 768px) {
-   .commodity-table th, .commodity-table td {
-     padding: 6px;
-     font-size: 14px;
-   }
- }
-
- @media (max-width: 576px) {
-   .commodity-table th, .commodity-table td {
-     padding: 4px;
-     font-size: 12px;
+   .area-chart-container h1{
+    margin-top: 40px;
+    text-align: center;
    }
 
-   .table-responsive {
-     overflow-x: auto;
+   .area-chart-container h2{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 22px;
+    font-weight: bold;
    }
+   
+   .table-container h2{
+    font-size: 18px;
+    font-weight: bold;
 
-   .commodity-table thead {
-     display: none;
-   }
-
-   .commodity-table tbody, .commodity-table tr, .commodity-table td {
-     display: block;
-     width: 100%;
-   }
-
-   .commodity-table tr {
-     margin-bottom: 15px;
-     border-bottom: 1px solid #ddd;
-   }
-
-   .commodity-table td {
-     text-align: right;
-     padding-left: 50%;
-     position: relative;
-   }
-
-   .commodity-table td::before {
-     content: attr(data-label);
-     position: absolute;
-     left: 10px;
-     width: calc(50% - 20px);
-     padding-right: 10px;
-     text-align: left;
-     white-space: nowrap;
    }
  }
 
@@ -130,44 +70,140 @@
   background-color: beige;
 }
 
-.sub_banner_image img {
- max-width: 600px;
- height: 350px;
- border-radius: 20px;
- transition: transform 0.5s ease;
- transform: scale(0.9);
-}
 
-.sub_banner_image img:hover {
- transform: scale(1);
-}
-.sub_banner_image1 img{
- max-width: 700px;
- height: 350px;
- margin-left: 20px;
- border-radius: 20px;
- transition: transform 0.5s ease;
- transform: scale(0.9);
-}
-.sub_banner_image1 img:hover {
- transform: scale(1);
-}
+   .commodity-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 5px;
+    padding-bottom: 30px;
+  }
 
-.Stock-title {
- color: #333;
- font-size: 24px;
- margin-bottom: 10px;
-}
+  .commodity-table th {
+    background-color: #87ceeb;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
 
-.Stock-title p {
- color: #666;
- font-size: 16px;
- line-height: 1.5;
-}
+  .commodity-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
 
-.btn_wrapper {
- margin-top: 20px;
-}
+  @media (max-width: 768px) {
+    .commodity-table th, .commodity-table td {
+      padding: 6px;
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .commodity-table th, .commodity-table td {
+      padding: 4px;
+      font-size: 12px;
+    }
+
+    .table-responsive {
+      overflow-x: auto;
+    }
+    .table-container h2{
+      display: none;
+    }
+
+    .commodity-table thead {
+      display: none;
+    }
+
+    .commodity-table tbody, .commodity-table tr, .commodity-table td {
+      display: block;
+      width: 100%;
+    }
+
+    .commodity-table tr {
+      margin-bottom: 15px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .commodity-table td {
+      text-align: right;
+      padding-left: 50%;
+      position: relative;
+    }
+
+    .commodity-table td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 10px;
+      width: calc(50% - 20px);
+      padding-right: 10px;
+      text-align: left;
+      white-space: nowrap;
+    }
+  }
+  .container_banner {
+    padding: 20px;
+  }
+  
+  .banner_outer1, .banner_outer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    
+  }
+  
+  .banner-box {
+    text-align: left;
+    
+  }
+  
+  .Stock-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .btn_wrapper {
+    margin-top: 20px;
+  }
+  
+  .btn-get-start {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .sub_banner_image1, .sub_banner_image {
+    text-align: center;
+  }
+  
+  .sub_banner_image1 img, .sub_banner_image img {
+    max-width: 600px;
+    height: 350px;
+    border-radius: 10px;
+  }
+  
+@media (max-width: 768px) {
+  
+  .sub_banner_image1, .sub_banner_image {
+    text-align: center;
+  }
+  
+  .sub_banner_image1 img, .sub_banner_image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .flex-row-1 .banner_outer1 {
+    order: 2;
+  }
+
+  .flex-row-1 .sub_banner_image1 {
+    order: 1;
+  }
 
 .btn_wrapper .btn {
  display: inline-block;
@@ -183,42 +219,26 @@
 .btn-get-start .btn:hover {
  background-color: transparent;
  border: 2px solid skyblue;
+
+  .flex-row-2 .sub_banner_image {
+    order: 1;
+  }
+
+  .flex-row-2 .banner_outer {
+    order: 2;
+  }
 }
-
-@media (max-width: 768px) {
- .banner_outer {
-   flex-direction: column;
-   text-align: center;
- }
-
- .banner-box {
-   margin-bottom: 20px;
- }
- .banner-box1 {
-   margin-bottom: 20px;
- }
- .sub_banner_image img {
-   max-width: 100%;
-   height: auto;
- }
- .sub_banner_image1 img {
-   max-width: 100%;
-   height: auto;
- }
-
-}
-
 @media (max-width: 576px) {
- .Stock-title {
-   font-size: 20px;
- }
+  .Stock-title {
+    font-size: 20px;
+  }
 
- .Stock-title p {
-   font-size: 14px;
- }
+  .Stock-title p {
+    font-size: 14px;
+  }
 
- .btn-get-start .btn {
-   padding: 8px 16px;
-   font-size: 14px;
- }
+  .btn-get-start .btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
 }

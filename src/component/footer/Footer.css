@@ -4,17 +4,13 @@
 
 
 .rocket_section {
-     /* margin-top: 25px; */
+     margin-top: 100px;
      padding: 50px 0px 0px 0px
 }
 
 .roket_wraper {
      position: absolute;
-     top: -80px;
-     padding: 35px 30px;
-     background: darkgoldenrod;
-     border-radius: 13px;
-     width: 90%;
+     top: -50px;
 
 }
 
@@ -39,10 +35,12 @@
 }
 
 .footer-listss li {
+}    
+
+.footer-listss li{
      list-style: none;
 }
-
-.footer-listss li a {
+.footer-listss li a{
      color: white;
      text-decoration: none;
 }
@@ -134,4 +132,6 @@
      .fottermobile-iconimg img {
           margin-top: 100px;
      }
+.footer-listss li a:hover{
+     color: skyblue;
 }

@@ -23,6 +23,9 @@
 .about-sec1coltext {
   display: flex;
   /* align-items: center; */
+.about-sec1coltext {
+    display: flex;
+    align-items: center;
 }
 
 .about-sec1coltext h5 {
@@ -404,4 +407,6 @@
   .right-column {
     width: 100%;
   }
+.about-sec-4row2{
+    margin-top: 50px;
 }

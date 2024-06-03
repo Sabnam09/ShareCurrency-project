@@ -18,6 +18,8 @@ import ServicePage1 from './component/Services/ServicePage1';
 import TermAndCondition from './component/pages/TermAndCondition';
 import PrivacyPolicy from './component/pages/PrivacyPolicy'
 import MarketingPage from './component/pages/MarketingPage';
+
+
 function App() {
 
   return (
@@ -40,9 +42,9 @@ function App() {
             <Route path='/contactus' element={<ContactUs />}></Route>
 
               {/* Terms and Condition , Privacy & Policy Page , Marketing */}
-            <Route path="/termAndCondition" element={<TermAndCondition />} />
-            <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
-            <Route path="/marketingPage" element={<MarketingPage />} />
+            <Route path="/TermAndCondition" element={<TermAndCondition />} />
+            <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+            <Route path="/MarketingPage" element={<MarketingPage />} />
           </Routes>
         </div>
         <Footer />
