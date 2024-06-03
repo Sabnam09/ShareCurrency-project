@@ -1,10 +1,31 @@
-
+.background-featuresec {
+    position: relative;
+    background-image: url('../../assets/feature_image.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 .sec-1{
     padding: 90px 60px;
 }
 .sec-1Box{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(246, 243, 243);
+    border-radius: 50%;
+    color: black;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
 }
+
 .dd{
     background-color: blue;
     height: 50px;
@@ -23,6 +44,65 @@
     font-size: 20px;
     font-weight: bold;
 }
+.featurebox-animation {
+    animation: previewShapeY 4s linear infinite;
+  }
+
+  @keyframes previewShapeY {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); 
+    }
+    100% {
+        transform: translateY(0);
+    }
+  }
+  .featuresec-row {
+    padding: 30px 30px;
+  }
+  
+  .featuresec-roww {
+    margin-bottom: 30px;
+  }
+  
+  .featuresec-coltxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .featuresec-coltxt h2 {
+    color: navy;
+    font-weight: bold;
+  }  
+  .featuresec-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.zigzag-box {
+    position: relative;
+    margin-bottom: 30px;
+
+}
+
+.offset-up {
+    top: 80px; 
+}
+
+.offset-down {
+    top: -50px;
+}
+
+@media (max-width: 767px) {
+    .offset-up,
+    .offset-down {
+        top: 0; 
+    }
+}
+
 .sec-2{
     background-color: #c36c6c52;
     padding: 70px 0px;

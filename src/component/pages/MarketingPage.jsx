@@ -1,12 +1,11 @@
-
 import React from 'react';
-import './MarketingPage.css';
-import { Container } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import Chart from 'react-apexcharts';
 import market_img from '../../assets/market_img.jpg';
 import market_img1 from '../../assets/market_img2.jpg';
-const MarketingPage = () => {
+import './MarketingPage.css';
 
+const MarketingPage = () => {
   // Sample data with price and month
   const data = [
     { month: "Jan", price: 200 },
@@ -31,7 +30,8 @@ const MarketingPage = () => {
   const options = {
     chart: {
       type: 'area',
-      height: 350
+      //  height: 350
+
     },
     xaxis: {
       categories: categories
@@ -49,20 +49,24 @@ const MarketingPage = () => {
   return (
     <Container>
       <div className='area-chart-container'>
-      <h1>COMMODITY MARKET</h1>
+        <h1>COMMODITY MARKET</h1>
+        <div className='chart-area'>
         <h2>STOCK PRICE MOVEMENT</h2>
-        <Chart
+        <Chart 
           options={options}
           series={[{ data: seriesData }]}
           type='area'
-          width={900}
-          height={400}
+          //  width={900}
+          //   height={400}
         />
+        </div>
       </div>
-      <div>
-        <h2>COMMODITY MARKET TABLE</h2>
-        
-        <table className='table '>
+      <div className='table-container'>
+  <h2>COMMODITY MARKET TABLE</h2>
+  <Row>
+    <Col>
+      <div className='table-responsive commodity-table'>
+        <table className='commodity-table'>
           <thead>
             <tr>
               <th>COMMODITY</th>
@@ -72,73 +76,67 @@ const MarketingPage = () => {
               <th>Low(₹)</th>
               <th>High(₹)</th>
               <th>VOLUME(LOTS)</th>
-              <th>Expiry_date</th>
+              <th>Expiry Date</th>
             </tr>
           </thead>
-          {/* <tbody>
-            <tr>
-              <td>hi</td>
-              <td>hi</td>
-              <td>hi</td>
-              <td>hi</td>
-              <td>hi</td>
-              <td>hi</td>
-              <td>hi</td>
-              <td>hi</td>
-            </tr>
-          </tbody> */}
+          <tbody>
+{/*       table body     */}
+          </tbody>
         </table>
-      
       </div>
-      <div className='container_banner'>
-        <div className='banner_outer'>
-          <div className='col'>
+    </Col>
+  </Row>
+</div>
+    <div className='container_banner'>
+      <Row className='flex-row-1'>
+        <Col md={6} className='banner_outer1'>
           <div className='banner-box'>
-            <h3 className='title'>Stock Holdings</h3>
+            <h3 className='Stock-title'>Stock Holdings</h3>
             <p>Stock holdings refer to the number of stocks, or shares, that a person or institution owns in a company.
-              These make up a portion of an investment portfolio, by futures, bonds, mutual funds and other assets. 
+              These make up a portion of an investment portfolio, alongside futures, bonds, mutual funds, and other assets.
               Each of these is an investment that can boost in profit, generating a return for the holder.
-              A different portfolio contains a range of investments across multiple sectors. 
-              Rather than putting all your money in one stock, you increase it across 
-              investment products that can appreciate in value in different ways.</p>
+              A diversified portfolio contains a range of investments across multiple sectors.
+              Rather than putting all your money in one stock, you spread it across
+              investment products that can appreciate in value in different ways.
+              Rather than putting all your money in one stock, you spread it across.</p>
             <div className='btn_wrapper'>
-              <a className='btn' href='/'> GET STARTED</a>
-            </div>
-            </div>
-          </div>
-          <div className='col'>
-            <div className='sub_banner_image'>
-              <img src={market_img1} alt='Banner_image'/>
+              <a className='btn-get-start btn' href='/'>GET STARTED</a>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div className='container'>
-        <div className='banner_outer'>
-          <div className='col'>
-            <div className='sub_banner_image'>
-              <img src={market_img} alt='Banner_image'/>
-            </div>
+        </Col>
+        <Col className='sub_banner_image1'>
+          <div>
+            <img src={market_img1} alt='Banner_image' />
           </div>
-          <div className='col'>
+        </Col>
+      </Row>
+      <Row className='flex-row-2'>
+        <Col md={6} className='sub_banner_image'>
+          <div>
+            <img src={market_img} alt='Banner_image' />
+          </div>
+        </Col>
+        <Col className='banner_outer'>
           <div className='banner-box'>
-            <h3 className='title'>Intraday Trading</h3>
+            <h3 className='Stock-title'>Intraday Trading</h3>
             <p>Intraday trades, also known as day trading, involve buying and selling a stock within a trading session, i.e. on the same day.
-             If you do not square off your situation by the end of the day, your stock can be sold automatically at the day’s
-              closing price under assured brokerage plans.Maximum traders set up an intraday trade by 
-              setting a target price for a stock and buying it if it is trading under the target price.
+              If you do not square off your position by the end of the day, your stock can be sold automatically at the day’s
+              closing price under certain brokerage plans. Most traders set up an intraday trade by
+              setting a target price for a stock and buying it if it is trading below the target price.
               They then sell the stock if it reaches the target price or if they feel the stock won’t
-               reach the target before the market closes for the day. 
-              The idea behind trading shares intraday is to make quick profits within a day.</p>
+              reach the target before the market closes for the day.
+              The idea behind intraday trading is to make quick profits within a day.</p>
             <div className='btn_wrapper'>
-              <a className='btn' href='/'> GET STARTED</a>
-            </div>
+              <a className='btn-get-start btn' href='/'>GET STARTED</a>
             </div>
           </div>
-        </div>
-      </div>
+        </Col>
+      </Row>
+    </div>
+
     </Container>
   );
 };
+
 export default MarketingPage;
+      
