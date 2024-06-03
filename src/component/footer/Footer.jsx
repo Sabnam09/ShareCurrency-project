@@ -20,15 +20,28 @@ const Footer = () => {
 
                             <div class="row">
 
-                                <div class="col-lg-3 col-md-12 fottermobile-iconimg">
-                                    <img className='footrmobile-animation' src="images/phinom-1-2x.png" alt="photo-md"></img>
-                                    {/* <div class="mt-4">
+                                <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                                    <h5 class="text-uppercase mb-4">About company</h5>
+
+                                    <p>
+
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem quis maxime mollitia quos laudantium! Officia adipisci debitis amet impedit delectus accusamus tempore et cumque. Illum placeat magni voluptate exercitationem dolor.
+                                        markets,
+                                        supported by regular events and training courses.
+                                    </p>
+
+                                    <div class="mt-4 footriconss">
+
                                         <a href="#" className="btn btn-floating btn-primary btn-lg"><FaFacebookF /></a>
                                         <a href="#" className="btn btn-floating btn-primary btn-lg"><FaDribbble /></a>
                                         <a href="#" className="btn btn-floating btn-primary btn-lg"><FaTwitter /></a>
                                         <a href="#" className="btn btn-floating btn-primary btn-lg"><FaGooglePlusG /></a>
-                                    </div> */}
+                                    </div>
+                                    <div>
+                                        <img src=''></img>
+                                    </div>
                                 </div>
+
 
                                 <div class="col-lg-5 col-md-6 footfrtextcol">
                                     <h5 class="text-uppercase  mb-4 pb-1 ms-lg-4 ps-lg-2">Courses </h5>

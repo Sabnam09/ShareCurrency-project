@@ -21,7 +21,7 @@ function Home() {
                         <div className="container homesec-carousel-img-text">
                             <div className="row homesec-carousel-text">
                                 <div className="col-8 c-text slide-1-h1">
-                                    <div className='home-slider-texts'>
+                                    <div className='home-slider-texts aos-init' data-aos="fade-up" data-aos-duration="2500" data-aos-easing="ease-in-out">
                                         <button>WELCOME TO SHARECURRENCY</button>
                                         <h1>Consulting is a long-term investment in your goal’s future.</h1>
                                         <p>Penatibus mi tempor volutpat taciti orci non dolor magnis dignissim facilisis. Vivamus vitae ultricies sagittis suspendisse montes tristique. Ligula tortor vulputate arcu mollis mus facilisi nisi habitant.</p>
@@ -43,7 +43,7 @@ function Home() {
                         <div className="container homesec-carousel-img-text">
                             <div className="row homesec-carousel-text">
                                 <div className="col-8 c-text">
-                                    <div className='home-slider-texts'>
+                                    <div className='home-slider-texts aos-init' data-aos="fade-up" data-aos-duration="2500" data-aos-easing="ease-in-out">
                                         <button>WELCOME TO SHARECURRENCY</button>
                                         <h1>Consulting is a long-term investment in your goal’s future.</h1>
                                         <p>Penatibus mi tempor volutpat taciti orci non dolor magnis dignissim facilisis. Vivamus vitae ultricies sagittis suspendisse montes tristique. Ligula tortor vulputate arcu mollis mus facilisi nisi habitant.</p>
@@ -65,7 +65,7 @@ function Home() {
                         <div className="container homesec-carousel-img-text">
                             <div className="row homesec-carousel-text">
                                 <div className="col-8 c-text">
-                                    <div className='home-slider-texts'>
+                                    <div className='home-slider-texts aos-init' data-aos="fade-up" data-aos-duration="2500" data-aos-easing="ease-in-out">
                                         <button>WELCOME TO SHARECURRENCY</button>
                                         <h1>Consulting is a long-term investment in your goal’s future.</h1>
                                         <p>Penatibus mi tempor volutpat taciti orci non dolor magnis dignissim facilisis. Vivamus vitae ultricies sagittis suspendisse montes tristique. Ligula tortor vulputate arcu mollis mus facilisi nisi habitant.</p>
@@ -75,7 +75,7 @@ function Home() {
                             </div>
                         </div>
                         <img
-                            src="https://html.yogsthemes.com/demo/fico/images/main-slider/image-1.jpg"
+                            src="images/banner-bg-img1.jpg"
                             className="d-block w-100"
                             alt="..."
                         />
@@ -128,9 +128,9 @@ function Home() {
                             </div>
                         </div>
 
-                        <div className="row  aos-init" data-aos="fade-up">
+                        <div className="row aos-init" data-aos="fade-up">
                             <div className="col-md-4">
-                                <div className="container">
+                                <div className="container service-hovrmain">
                                     <div className="img-fluid card mb-5 service-card-radius">
                                         <img className="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ94ILLOOZTggwXbro1UH9PgAnbgwSHuwkULw&s" alt="Card image" />
                                         <div className="card-body">
@@ -289,16 +289,44 @@ function Home() {
                 <div className="container-fluid">
                     <div className="row aos-init" data-aos="zoom-in-up">
                         <div className="col-md-3 recentProjectssecolc">
-                            <img className="card-img-top" src="https://www.bankrate.com/2020/08/24165602/what-is-bitcoin.jpeg?auto=webp&optimize=high" alt="Card image" />
+                            <div className='image-container'>
+                                <div className='recentimghoverbg'>
+                                    <Link to="/" className="recentprojcthome-overlay-text">View More </Link>
+                                </div>
+                                <img className="card-img-top" src="https://www.bankrate.com/2020/08/24165602/what-is-bitcoin.jpeg?auto=webp&optimize=high" alt="Card image" />
+                            </div>
                         </div>
                         <div className="col-md-3 recentProjectssecolc">
-                            <img className="card-img-top" src="https://skycommodity.in/static/media/day.13848a8db7a50bff9889.jpg" alt="Card image" />
+                            <div className='image-container'>
+                                <div className='recentimghoverbg'>
+                                    <Link to="/" className="recentprojcthome-overlay-text">View More </Link>
+                                </div>
+                                <img className="card-img-top" src="https://skycommodity.in/static/media/day.13848a8db7a50bff9889.jpg" alt="Card image" />
+                            </div>
                         </div>
                         <div className="col-md-3 recentProjectssecolc">
-                            <img className="card-img-top" src="https://www.usatoday.com/money/blueprint/images/uploads/2023/02/08004747/how-to-buy-bitcoin-e1691470121926.jpg" alt="Card image" />
+                            <div className='image-container'>
+                                <div className='recentimghoverbg'>
+                                    <Link to="/" className="recentprojcthome-overlay-text">View More </Link>
+                                </div>
+                                <img className="card-img-top" src="https://www.usatoday.com/money/blueprint/images/uploads/2023/02/08004747/how-to-buy-bitcoin-e1691470121926.jpg" alt="Card image" />
+                            </div>
                         </div>
                         <div className="col-md-3 recentProjectssecolc">
-                            <img className="card-img-top" src="https://imageio.forbes.com/specials-images/dam/imageserve/908633080/960x0.jpg?height=474&width=711&fit=bounds" alt="Card image" />
+                            <div className='image-container'>
+                                <div className='recentimghoverbg'>
+                                    <Link to="/" className="recentprojcthome-overlay-text">View More </Link>
+                                </div>
+                                <img className="card-img-top" src="https://imageio.forbes.com/specials-images/dam/imageserve/908633080/960x0.jpg?height=474&width=711&fit=bounds" alt="Card image" />
+                            </div>
+                        </div>
+
+
+                        <div className="col-md-3 recentProjectssecolc">
+                        </div>
+                        <div className="col-md-3 recentProjectssecolc">
+                        </div>
+                        <div className="col-md-3 recentProjectssecolc">
                         </div>
                     </div>
                 </div>
@@ -333,7 +361,7 @@ function Home() {
 
             <section className='homnewssection'>
                 <div className="container">
-                  <div className="service-head">
+                    <div className="service-head">
                         <p className='mb-5'> <span>Latest</span> News </p>
                     </div >
                     <div className="row  aos-init" data-aos="fade-up">
@@ -344,8 +372,8 @@ function Home() {
                                     <div className="card-body homnewscardbody">
                                         <Link to="/">Ci Financial Sells RIA Stake In New Expansion Strategy</Link>
                                         <div className='homenewsiconsdiv'>
-                                        <p>by <span className='homenewsiconsspan1'>Avitex</span></p>
-                                        <MdDateRange className='mt-1 me-2'/> <span className='homenewsiconsspan2'>2 days ago</span>
+                                            <p>by <span className='homenewsiconsspan1'>Avitex</span></p>
+                                            <MdDateRange className='mt-1 me-2' /> <span className='homenewsiconsspan2'>2 days ago</span>
                                         </div>
                                     </div>
                                 </div>
@@ -358,8 +386,8 @@ function Home() {
                                     <div className="card-body homnewscardbody">
                                         <Link to="/">Barred Financial Advisors Charged In Millions</Link>
                                         <div className='homenewsiconsdiv'>
-                                        <p>by <span className='homenewsiconsspan1'>Avitex</span></p>
-                                        <MdDateRange className='mt-1 me-2'/> <span className='homenewsiconsspan2'>1 days ago</span>
+                                            <p>by <span className='homenewsiconsspan1'>Avitex</span></p>
+                                            <MdDateRange className='mt-1 me-2' /> <span className='homenewsiconsspan2'>1 days ago</span>
                                         </div>
                                     </div>
                                 </div>
@@ -372,8 +400,8 @@ function Home() {
                                     <div className="card-body homnewscardbody">
                                         <Link to="/">Retirement Planning Strategy</Link>
                                         <div className='homenewsiconsdiv'>
-                                        <p>by <span className='homenewsiconsspan1'>Avitex</span></p>
-                                        <MdDateRange className='mt-1 me-2'/> <span className='homenewsiconsspan2'>2 days ago</span>
+                                            <p>by <span className='homenewsiconsspan1'>Avitex</span></p>
+                                            <MdDateRange className='mt-1 me-2' /> <span className='homenewsiconsspan2'>2 days ago</span>
                                         </div>
                                     </div>
                                 </div>
@@ -434,7 +462,7 @@ function Home() {
                 </div >
             </section >
 
-            
+
 
             <section className='meetOurTeamsec'>
                 <div className="container">

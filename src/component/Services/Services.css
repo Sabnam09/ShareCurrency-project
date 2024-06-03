@@ -26,6 +26,16 @@
     padding: 30px 20px;
     box-shadow: 5px 15px 20px #3a8d76;
 }
+.servicesecBoxdown:hover{
+    background-color: darkcyan;
+    color: white;
+    margin-top: -140px;
+}
+.servicesecBoxup:hover{
+    background-color: darkcyan;
+    color: white;
+    margin-top: -190px;
+}
 
 .servicesecBoxup {
     background: white;

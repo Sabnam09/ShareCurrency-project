@@ -17,21 +17,27 @@
      width: 90%;
 
 }
+
 .text-lg-start {
      margin-top: 60px;
 }
-.footer-copyright{
+
+.footer-copyright {
      text-align: center;
      background-color: #0177c1;
      color: white;
      padding: 6px 0px;
+     font-size: 12px;
 }
-.footer-copyright a{
+
+.footer-copyright a {
      color: skyblue;
 }
-.footer-copyright a:hover{
+
+.footer-copyright a:hover {
      color: goldenrod;
 }
+
 .footer-listss li {
      list-style: none;
 }
@@ -39,6 +45,13 @@
 .footer-listss li a {
      color: white;
      text-decoration: none;
+}
+
+.footriconss a {
+     background: wheat;
+     color: rgba(0, 0, 0, 0.842);
+     padding: 2px 10px;
+     margin-right: 7px;
 }
 
 .footer-listss li a:hover {
@@ -49,41 +62,45 @@
      height: 350px;
      /* width: 240px; */
 }
-.footfrtextcol{
+
+.footfrtextcol {
      margin-top: 35px;
      padding: 0px 30px;
 }
 
-.footermainsec{
+.footermainsec {
      background-image: url(https://t4.ftcdn.net/jpg/04/72/60/39/360_F_472603936_gtZ5ULKjzrVqN5nvVl9tiFJtak2ikbnb.jpg);
      background-repeat: no-repeat;
      background-size: cover;
-     background-position:top;
+     background-position: top;
      padding-bottom: 20px;
 }
-.footermainsec::before{
+
+.footermainsec::before {
      background-color: skyblue;
 }
 
 
 .footrmobile-animation {
      animation: footrmobl 4s linear infinite;
-   }
-   
-   @keyframes footrmobl {
+}
+
+@keyframes footrmobl {
      0% {
-       transform: translateY(0) rotateY(0deg);
+          transform: translateY(0) rotateY(0deg);
      }
-   
+
      50% {
-       transform: translateY(-20px) rotateY(180deg); /* Rotate 180 degrees for flip effect */
+          transform: translateY(-20px) rotateY(180deg);
+          /* Rotate 180 degrees for flip effect */
      }
-   
+
      100% {
-       transform: translateY(0) rotateY(360deg); /* Complete the full rotation */
+          transform: translateY(0) rotateY(360deg);
+          /* Complete the full rotation */
      }
-   }
-   
+}
+
 
 
 @media (max-width: 992px) {
@@ -113,7 +130,8 @@
           margin-top: 30px;
           padding: 50px 0px 0px 0px;
      }
+
      .fottermobile-iconimg img {
           margin-top: 100px;
-      }
+     }
 }

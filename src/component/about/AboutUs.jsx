@@ -36,7 +36,7 @@ const AboutUs = () => {
             <section className='about-sec1'>
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-5 about-sec1coltext">
+                        <div className="col-md-5 about-sec1coltext aos-init" data-aos="fade-down" data-aos-duration="4000" data-aos-easing="ease-in-out">
                             <div>
                                 <h5>ABOUT US</h5>
                                 <h2>ShareWolves Training Academy</h2>
@@ -187,7 +187,7 @@ const AboutUs = () => {
             <section className='homourvaluessec'>
             <Container>
                 <div className='our-value-sec'>
-                    <h3>OUR VALUES</h3>
+                    <h3><span>OUR</span> VALUES</h3>
                 </div>
                 <div className="value-section">
                     <div className="left-column">
