@@ -1,0 +1,588 @@
+.home-sec-bg {
+  position: relative;
+}
+
+.homesecslider-item {
+  position: relative;
+}
+
+.homesec-slider-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.418);
+  /* Optional: To add a dark overlay */
+  z-index: 1;
+}
+
+.homesec-carousel-img-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: white;
+  /* Optional: To ensure text is visible on all images */
+  text-align: center;
+  /* Center-align text */
+}
+
+.homesec-carousel-text {
+  justify-content: center;
+  /* Center the text horizontally */
+}
+
+.homesec-carousel-text .col-8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-slider-texts button,
+.home-slider-texts h1,
+.home-slider-texts p,
+.home-slider-texts a {
+  margin-bottom: 15px;
+  /* Optional: Add spacing between elements */
+}
+
+.home-slider-texts button {
+  background-color: #0c1f38;
+  color: white;
+  padding: 4px 20px;
+  cursor: auto;
+  margin-bottom: 30px;
+  /* margin-top: 20px; */
+  font-size: 13px;
+}
+
+.home-slider-texts h1 {
+  font-weight: bold;
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+
+.home-slider-texts p {
+  font-size: 16px;
+  color: wheat;
+  margin-bottom: 50px;
+}
+
+.home-slider-texts a {
+  background: skyblue;
+  padding: 12px 23px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid skyblue;
+}
+
+.home-slider-texts a:hover {
+  border: 2px solid skyblue;
+  background-color: transparent;
+  color: white;
+}
+
+
+
+.home-sec-1 {
+  padding: 80px 20px;
+}
+
+.home-sec-1col1 {
+  padding: 2em 2em 2em 2em;
+  background-image: url(https://web.moxcreative.com/ventuure/wp-content/uploads/sites/20/2023/03/Pattern_1.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 100px auto;
+}
+
+.home-sec-1col1 img {
+  border-radius: 10px;
+}
+
+.home-sec-1col2 {
+  padding-top: 50px;
+}
+
+.home-sec-1col2 h2 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.home-sec-1col2 p {
+  line-height: 32px;
+  margin-bottom: 25px;
+}
+
+.home-sec-1col2 a {
+  background-color: skyblue;
+  text-decoration: none;
+  padding: 10px 12px;
+  color: black;
+  font-weight: bold;
+  border: 2px solid skyblue;
+
+}
+
+.home-sec-1col2 a:hover {
+  background-color: transparent;
+  border: 2px solid skyblue;
+}
+
+
+/* service section start*/
+.service-sec {
+  /* padding-top: -170px; */
+  padding-bottom: 70px;
+}
+
+.service-ro {
+  display: flex;
+  justify-content: center;
+}
+
+.service-head {
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.service-head span {
+  color: skyblue;
+}
+
+.service-head p {
+  color: #0c1f38;
+}
+
+.service-text {
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+
+.service-card-radius img {
+  border-radius: 0px;
+  height: 180px;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.service-card-radius img:hover {
+  transform: scale(1.1);
+  border-radius: 6px;
+}
+
+.service-card-title {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.service-card-p {
+  font-size: 13px;
+  line-height: 2;
+}
+
+.service-card-btn {
+  height: 40px;
+  width: 130px;
+  background: skyblue;
+  border-radius: 28px;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.service-card-btn a {
+  text-decoration: none;
+  color: black;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.service-card-btn:hover {
+  border: 2px solid skyblue;
+  background-color: white;
+}
+
+.service-card-btn:hover a {
+  color: skyblue;
+}
+
+.meetOurTeamsec {
+  padding: 40px 20px;
+  margin-bottom: 40px;
+}
+
+.recentProjectssec {
+  padding: 90px 20px;
+}
+
+
+/* service section start*/
+
+/* Counter sec start */
+.counter-secmainn {
+  background-image: url(https://web.moxcreative.com/ventuure/wp-content/uploads/sites/20/2023/03/stock-market-display.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  /* margin-bottom: 70px; */
+  background-attachment: fixed;
+}
+
+.counter-sec-bg {
+  padding: 65px 10px;
+  background-color: #5a56565b;
+}
+
+.counter-sec-text h2 {
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 1.3;
+}
+
+.counter-sec-btn {
+  background-color: skyblue;
+  border: 2px solid skyblue;
+  height: 45px;
+  width: 170px;
+  border-radius: 25px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.counter-sec-symbol {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.count {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.operator,
+.atm,
+.producer {
+  font-weight: bold;
+  margin-top: -20px;
+}
+
+.counter-up i.fa {
+  border: 1px solid white;
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+  text-align: center;
+  margin: auto;
+  font-size: 35px;
+  padding: 14px;
+}
+
+/* Counter sec end */
+
+.recent_projects_maindiv {
+  display: flex;
+}
+
+.meetOurteam {
+  background-color: #ffa5009c;
+  padding: 100px 10px;
+  margin-top: 20px;
+  opacity: 0.9;
+  color: white;
+  text-align: center;
+}
+
+.meet_teamhed {
+  color: orchid;
+  margin-bottom: -0px;
+  font-weight: bold;
+}
+
+.imggg {
+  height: 210px;
+}
+
+.namess {
+  color: skyblue;
+  font-weight: bold
+}
+
+
+.sec-progressbarcoltext {
+  padding-top: 50px;
+}
+
+.progress-container {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 25px;
+  margin: 20px auto;
+  height: 20px;
+}
+
+.progress-bar {
+  height: 20px !important;
+  background-color: skyblue !important;
+  border-radius: 25px;
+  /* text-align: center; */
+  line-height: 30px;
+  color: black;
+  transition: width 0.5s ease;
+}
+
+
+.recentProjectssecolc img {
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.homeaboutsec {
+  padding: 0px 15px;
+  padding-top: 60px;
+}
+
+.homboxxDown {
+  background-color: rgba(135, 207, 235, 0.349);
+  border-radius: 13px;
+  padding: 30px 35px;
+}
+
+.homboxxDown:hover {
+  background-color: #0c1f38;
+  color: white;
+}
+
+.homboxxUp:hover {
+  background-color: #0c1f38;
+  color: white;
+}
+
+.homboxxDown h5 {
+  color: brown;
+  font-weight: bold;
+}
+
+.homboxxDown svg {
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+
+.homboxxUp svg {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.homboxxUp {
+  background-color: rgba(135, 207, 235, 0.349);
+  border-radius: 13px;
+  padding: 30px 35px;
+  margin-top: -50px;
+}
+
+.homboxxUp h5 {
+  color: brown;
+  font-weight: bold;
+}
+
+.homeaboutsec-row {
+  padding: 30px 30px;
+}
+
+.homeaboutsec-roww {
+  margin-bottom: 30px;
+}
+
+.homeaboutsec-coltxt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.meetOurTeamseccol {
+  margin: 50px 0px;
+}
+
+.meetOurTeamseccol .blog-card:hover {
+  background-color: rgba(128, 128, 128, 0.308);
+  border: 2px solid rgba(128, 128, 128, 0.212);
+  padding: 2px;
+  border-radius: 10px;
+}
+
+
+.homeaboutsec-coltxt h2 {
+  color: navy;
+  font-weight: bold;
+}
+
+
+.homesec-slider-item img {
+  height: 600px;
+}
+
+.hombox-animation {
+  animation: previewShapeY 4s linear infinite;
+}
+
+@keyframes previewShapeY {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+    /* Adjust this value as needed for the desired distance */
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.homenews-card-radius img {
+  border-radius: 0px;
+  height: 180px;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+
+.homenews-card-radius img {
+  transition: transform 0.9s ease, border-radius 0.5s ease;
+}
+
+.homenews-card-radius img:hover {
+  transform: scale(0.92);
+  border-radius: 6px;
+}
+
+.homenewsiconsdiv {
+  display: flex;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.homenewsiconsdiv p {
+  margin-right: 20px;
+}
+
+.homenewsiconsspan1 {
+  color: gray;
+}
+
+.homnewscardbody {
+  margin-top: 15px;
+}
+
+.homnewscardbody a {
+  font-size: 22px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.homnewscardbody a:hover {
+  color: skyblue;
+}
+
+.homnewssection {
+  margin-top: 30px;
+}
+
+/* .recentimghoverbg {
+  background: rgb(0, 0, 0);
+  opacity: 0.8;
+  display: none;
+  height: 200px;
+}
+
+.recentProjectssecolc:hover .recentimghoverbg {
+  display: block;
+} */
+
+
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.recentimghoverbg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent background */
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s ease;
+}
+
+.image-container:hover .recentimghoverbg {
+  opacity: 1;
+}
+
+.card-img-top {
+  width: 100%;
+  display: block;
+}
+
+.recentprojcthome-overlay-text {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+/* responsive css */
+@media (max-width: 992px) {
+  .meetOurTeamsec {
+    padding: 50px 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .meetOurTeamsec {
+    padding: 20px 10px;
+    padding-bottom: 50px;
+  }
+
+  .meetOurTeamseccol {
+    margin: 10px 0px;
+  }
+
+  .homeaboutsec {
+    padding-top: unset;
+  }
+}
+
+@media (max-width: 576px) {
+  .homboxxDown {
+    margin-bottom: 85px;
+  }
+
+  .homeaboutsec {
+    padding: 0px 2px;
+  }
+}
