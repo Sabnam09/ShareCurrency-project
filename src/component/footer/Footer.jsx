@@ -37,8 +37,8 @@ const Footer = () => {
                                         <a href="#" className="btn btn-floating btn-primary btn-lg"><FaTwitter /></a>
                                         <a href="#" className="btn btn-floating btn-primary btn-lg"><FaGooglePlusG /></a>
                                     </div>
-                                    <div>
-                                        <img src=''></img>
+                                    <div className='footergooglicon'>
+                                        <img src='images/googleplay-logo.png' className='img-fluid'></img>
                                     </div>
                                 </div>
 

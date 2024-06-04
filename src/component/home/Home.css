@@ -89,6 +89,10 @@
 
 .home-sec-1 {
   padding: 80px 20px;
+  background-image: url('images/sec-bg-image-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 6px 0px;
 }
 
 .home-sec-1col1 {
@@ -134,9 +138,17 @@
 
 
 /* service section start*/
+.home-sec-servics {
+  /* background-image: url('images/sec-bg-image-2.jpg'); */
+}
+
 .service-sec {
-  /* padding-top: -170px; */
   padding-bottom: 70px;
+  padding-top: 30px;
+  background-image: url('images/sec-bg-image-5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 6px 0px;
 }
 
 .service-ro {
@@ -148,10 +160,11 @@
   font-size: 30px;
   font-weight: 800;
   text-align: center;
+  padding-top: 25px;
 }
 
 .service-head span {
-  color: skyblue;
+  color: brown;
 }
 
 .service-head p {
@@ -213,12 +226,25 @@
 }
 
 .meetOurTeamsec {
-  padding: 40px 20px;
-  margin-bottom: 40px;
+  /* padding: 40px 20px; */
+  /* margin-bottom: 40px; */
+  padding-bottom: 100px !important;
+  padding: 0px 20px;
+  background-image: url('images/sec-bg-image-9.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 6px 0px;
+}
+.meetOurTeamsecroww{
+  margin-bottom: 100px;
 }
 
 .recentProjectssec {
-  padding: 90px 20px;
+  padding: 80px 20px;
+  background-image: url('images/sec-bg-image-1.jpg');
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  margin: 6px 0px;
 }
 
 
@@ -345,8 +371,12 @@
 }
 
 .homeaboutsec {
-  padding: 0px 15px;
-  padding-top: 60px;
+  padding-top: 20px;
+  padding: 0px 20px;
+  background-image: url('images/sec-bg-image-8.avif');
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  margin: 6px 0px;
 }
 
 .homboxxDown {
@@ -396,7 +426,7 @@
   padding: 30px 30px;
 }
 
-.homeaboutsec-roww {
+.homeaboutsec-roww-1 {
   margin-bottom: 30px;
 }
 
@@ -408,11 +438,11 @@
 }
 
 .meetOurTeamseccol {
-  margin: 50px 0px;
+  margin: 30px 0px;
 }
 
 .meetOurTeamseccol .blog-card:hover {
-  background-color: rgba(128, 128, 128, 0.308);
+  background-color: rgba(99, 86, 59, 0.384);
   border: 2px solid rgba(128, 128, 128, 0.212);
   padding: 2px;
   border-radius: 10px;
@@ -496,7 +526,12 @@
 }
 
 .homnewssection {
-  margin-top: 30px;
+  padding-top: 30px;
+  padding: 0px 20px;
+  background-image: url('images/sec-bg-image-5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 6px 0px;
 }
 
 /* .recentimghoverbg {

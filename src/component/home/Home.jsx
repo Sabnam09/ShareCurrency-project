@@ -90,7 +90,7 @@ function Home() {
                         <div className="col-md-6 home-sec-1col1 aos-init" data-aos="fade-left" data-aos-delay="70" data-aos-duration="4000" data-aos-easing="ease-in-out">
                             <img src='https://web.moxcreative.com/ventuure/wp-content/uploads/sites/20/2023/03/working-with-investments-.jpg' className='img-fluid'></img>
                         </div>
-                        <div className="col-md-6 home-sec-1col2 aos-init">
+                        <div className="col-md-6 home-sec-1col2 aos-init"  data-aos="fade-down" data-aos-delay="70">
                             <h2>We are the magic behind the company’s best days.</h2>
                             <p>Elementum ac ornare torquent sagittis nam ligula dictum vehicula facilisi fames placerat. Orci nisl facilisi ac nulla vehicula. Hendrerit lobortis litora nunc per commodo potenti.</p>
                             <Link to="/">Discover More</Link>
@@ -100,7 +100,7 @@ function Home() {
             </section>
 
 
-            <section>
+            <section className='home-sec-servics'>
                 <div className="service-sec">
                     <div className="container">
                         <div className="row service-ro">
@@ -315,9 +315,9 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </section>
+            {/* </section> */}
 
-            <section className='sec-progressbar'>
+            {/* <section className='sec-progressbar'> */}
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 home-sec-1col1 aos-init" data-aos="fade-up">
@@ -410,7 +410,7 @@ function Home() {
                         </div>
 
                         <div className="col-lg-6 homeaboutsec-colbox aos-init" data-aos="fade-up" data-aos-delay="150" data-aos-duration="2000" data-aos-easing="ease-in-out">
-                            <div className="row homeaboutsec-roww">
+                            <div className="row homeaboutsec-roww homeaboutsec-roww-1">
                                 <div className="hombox-animation col-sm-6">
                                     <div className='homboxxDown'>
                                         <MdVerified />
@@ -454,7 +454,7 @@ function Home() {
                     <div className="service-head">
                         <p> <span>Meet Our</span> Teams </p>
                     </div>
-                    <div className="row aos-init" data-aos="zoom-out-up">
+                    <div className="row meetOurTeamsecroww aos-init" data-aos="zoom-out-up">
                         <div className="col-md-4 meetOurTeamseccol">
                             <div className="card blog-card">
                                 <img src="https://max-themes.net/demos/oregon/upload/personnel-1.jpg" class="imggg img-fluid attachment-digibit-blog-ii-column size-digibit-blog-ii-column" alt=""></img>
