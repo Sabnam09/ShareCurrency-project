@@ -31,6 +31,7 @@ function ServicePage1() {
             </section>
 
             <section className='servicepage1sec2'>
+            <div className='service_background'>
                 <div className="container-fluid">
                     <div className="row servicepage1sec2roww">
                         <div className="col-4">
@@ -102,6 +103,7 @@ function ServicePage1() {
                             </div>
                         </div>
                     </div>
+                </div>
                 </div>
             </section>
         </>

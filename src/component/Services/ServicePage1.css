@@ -58,3 +58,8 @@
 .servicepage1sec2box {
     margin-bottom: 40px;
 }
+
+.service_background{
+    background-image: url(../../../public/images/service.png);
+    background-size: cover;
+}
