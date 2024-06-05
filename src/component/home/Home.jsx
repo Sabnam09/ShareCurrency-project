@@ -7,6 +7,8 @@ import { MdVerified } from "react-icons/md";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { FaBusinessTime } from "react-icons/fa6";
 import { MdDateRange } from "react-icons/md";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Home() {
     AOS.init();
