@@ -6,7 +6,10 @@
    box-shadow: 0px 0px 10px rgba(166, 162, 162, 0.5);
    margin-top: 50px; 
   }
-
+   .area-chart-container-inner{
+    width: 600px;
+    height: 500px;
+  } 
   .area-chart-container h1{
    margin-top: 40px;
    text-align: center;
@@ -22,6 +25,7 @@
   .table-container h2{
    font-size: 18px;
    font-weight: bold;
+   margin-top: 20px;
 
   }
 
@@ -99,13 +103,20 @@
  align-items: center;
 }
 
+/* .banner_background_img {
+  position: relative;
+  background-image: url('images/bg1.jpg');
+  background-size: cover;
+  background-position: center; 
+} */
+
 .banner_outer {
  display: flex;
  justify-content: space-between;
  align-items: center;
  width: 100%;
  margin-top: 25px;
- margin-bottom: 110px;
+ /* margin-bottom: 110px; */
 }
 .banner_outer1 {
  display: flex;
@@ -113,6 +124,9 @@
  align-items: center;
  margin-top: 20px;
  width: 100%;
+}
+.banner_outer_padding{
+  margin-bottom: 200px;
 }
 .area-chart {
  flex: 1;
@@ -186,6 +200,10 @@
 }
 
 @media (max-width: 768px) {
+  .area-chart-container-inner{
+    width: 100%;
+    height: auto;
+  }
  .banner_outer {
    flex-direction: column;
    text-align: center;
@@ -205,7 +223,9 @@
    max-width: 100%;
    height: auto;
  }
-
+ .banner_outer_padding{
+  margin-bottom: 80px;
+}
 }
 
 @media (max-width: 576px) {
