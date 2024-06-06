@@ -87,12 +87,17 @@ function Home() {
             </section>
 
             <section className='home-sec-1'>
+                <div className="circle" style={{ top: '10%', left: '20%' }}></div>
+                <div className="circle" style={{ top: '40%', left: '70%' }}></div>
+                <div className="dot" style={{ top: '70%', left: '30%' }}></div>
+                <div className="dot" style={{ top: '50%', left: '50%' }}></div>
+                <div className="dot" style={{ top: '20%', left: '80%' }}></div>
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 home-sec-1col1 aos-init" data-aos="fade-left" data-aos-delay="70" data-aos-duration="4000" data-aos-easing="ease-in-out">
-                            <img src='https://web.moxcreative.com/ventuure/wp-content/uploads/sites/20/2023/03/working-with-investments-.jpg' className='img-fluid'></img>
+                            <img src='https://web.moxcreative.com/ventuure/wp-content/uploads/sites/20/2023/03/working-with-investments-.jpg' className='img-fluid' alt="working with investments"></img>
                         </div>
-                        <div className="col-md-6 home-sec-1col2 aos-init"  data-aos="fade-down" data-aos-delay="70">
+                        <div className="col-md-6 home-sec-1col2 aos-init" data-aos="fade-down" data-aos-delay="70">
                             <h2>We are the magic behind the company’s best days.</h2>
                             <p>Elementum ac ornare torquent sagittis nam ligula dictum vehicula facilisi fames placerat. Orci nisl facilisi ac nulla vehicula. Hendrerit lobortis litora nunc per commodo potenti.</p>
                             <Link to="/">Discover More</Link>
@@ -100,7 +105,6 @@ function Home() {
                     </div>
                 </div>
             </section>
-
 
             <section className='home-sec-servics'>
                 <div className="service-sec">
@@ -165,48 +169,46 @@ function Home() {
 
 
                         <div className="row aos-init" data-aos="fade-up">
-                            <div className="row">
-                                <div className="col-md-4">
-                                    <div className="container">
-                                        <div className="img-fluid card mb-5 service-card-radius">
-                                            <img className="card-img-top" src="https://media.istockphoto.com/id/1304093999/photo/bitcoin-e-commerce-concept-on-digital-screen.jpg?s=612x612&w=0&k=20&c=H_aL2IvK90193-D8LEsuQGpgKYio0-Ls1-DMylZ41bY=" alt="Card image" />
-                                            <div className="card-body">
-                                                <h5 className="card-title service-card-title">Bitcoin Service</h5>
-                                                <p className="service-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error
-                                                    accusamus, odio suscipit modi eligendi reprehenderit?</p>
-                                                <div className="service-card-btn">
-                                                    <a href="#">Read More</a>
-                                                </div>
+                            <div className="col-md-4">
+                                <div className="container">
+                                    <div className="img-fluid card mb-5 service-card-radius">
+                                        <img className="card-img-top" src="https://media.istockphoto.com/id/1304093999/photo/bitcoin-e-commerce-concept-on-digital-screen.jpg?s=612x612&w=0&k=20&c=H_aL2IvK90193-D8LEsuQGpgKYio0-Ls1-DMylZ41bY=" alt="Card image" />
+                                        <div className="card-body">
+                                            <h5 className="card-title service-card-title">Bitcoin Service</h5>
+                                            <p className="service-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error
+                                                accusamus, odio suscipit modi eligendi reprehenderit?</p>
+                                            <div className="service-card-btn">
+                                                <a href="#">Read More</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-4">
-                                    <div className="container">
-                                        <div className="img-fluid card mb-5 service-card-radius">
-                                            <img className="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRielfOHVewQ9yYXJCY7VjidSW-mVEB00sq_w&s" alt="Card image" />
-                                            <div className="card-body">
-                                                <h5 className="card-title service-card-title">Bitcoin Tranjaction</h5>
-                                                <p className="service-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error
-                                                    accusamus, odio suscipit modi eligendi reprehenderit?</p>
-                                                <div className="service-card-btn">
-                                                    <a href="#">Read More</a>
-                                                </div>
+                            </div>
+                            <div className="col-md-4">
+                                <div className="container">
+                                    <div className="img-fluid card mb-5 service-card-radius">
+                                        <img className="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRielfOHVewQ9yYXJCY7VjidSW-mVEB00sq_w&s" alt="Card image" />
+                                        <div className="card-body">
+                                            <h5 className="card-title service-card-title">Bitcoin Tranjaction</h5>
+                                            <p className="service-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error
+                                                accusamus, odio suscipit modi eligendi reprehenderit?</p>
+                                            <div className="service-card-btn">
+                                                <a href="#">Read More</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-4">
-                                    <div className="container">
-                                        <div className="img-fluid card mb-5 service-card-radius">
-                                            <img className="card-img-top" src="https://skycommodity.in/static/media/day.13848a8db7a50bff9889.jpg" alt="Card image" />
-                                            <div className="card-body">
-                                                <h5 className="card-title service-card-title">Bitcoin Mining</h5>
-                                                <p className="service-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error
-                                                    accusamus, odio suscipit modi eligendi reprehenderit?</p>
-                                                <div className="service-card-btn">
-                                                    <a href="#">Read More</a>
-                                                </div>
+                            </div>
+                            <div className="col-md-4">
+                                <div className="container">
+                                    <div className="img-fluid card mb-5 service-card-radius">
+                                        <img className="card-img-top" src="https://skycommodity.in/static/media/day.13848a8db7a50bff9889.jpg" alt="Card image" />
+                                        <div className="card-body">
+                                            <h5 className="card-title service-card-title">Bitcoin Mining</h5>
+                                            <p className="service-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. A error
+                                                accusamus, odio suscipit modi eligendi reprehenderit?</p>
+                                            <div className="service-card-btn">
+                                                <a href="#">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -307,24 +309,14 @@ function Home() {
                                 <img className="card-img-top" src="https://imageio.forbes.com/specials-images/dam/imageserve/908633080/960x0.jpg?height=474&width=711&fit=bounds" alt="Card image" />
                             </div>
                         </div>
-
-
-                        <div className="col-md-3 recentProjectssecolc">
-                        </div>
-                        <div className="col-md-3 recentProjectssecolc">
-                        </div>
-                        <div className="col-md-3 recentProjectssecolc">
-                        </div>
                     </div>
                 </div>
-            {/* </section> */}
+                {/* </section> */}
 
-            {/* <section className='sec-progressbar'> */}
+                {/* <section className='sec-progressbar'> */}
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6 home-sec-1col1 aos-init" data-aos="fade-up">
-                            <img src='https://web.moxcreative.com/ventuure/wp-content/uploads/sites/20/2023/03/working-with-investments-.jpg' className='img-fluid'></img>
-                        </div>
+
                         <div className="col-md-6 sec-progressbarcoltext ">
                             <h2>Think fresh, work faster, grow smarter, save money.</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
@@ -342,6 +334,10 @@ function Home() {
                                 </div>
                             </div>
                         </div>
+
+                        <div className="col-md-6 home-sec-1col1 aos-init" data-aos="fade-up">
+                            <img src='https://web.moxcreative.com/ventuure/wp-content/uploads/sites/20/2023/03/working-with-investments-.jpg' className='img-fluid'></img>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -350,7 +346,7 @@ function Home() {
                 <div className="container">
                     <div className="service-head">
                         <p className='mb-5'> <span>Latest</span> News </p>
-                    </div >
+                    </div>
                     <div className="row  aos-init" data-aos="fade-up">
                         <div className="col-md-4">
                             <div className="container">
@@ -399,10 +395,10 @@ function Home() {
             </section>
 
             <section className="homeaboutsec">
-                <div className="container-fluid ">
+                <div className="container-fluid">
                     <div className="service-head">
-                        <p className='mb-5'> <span>Abous</span> Us </p>
-                    </div >
+                        <p className='mb-5'><span>About</span> Us</p>
+                    </div>
                     <div className="row homeaboutsec-row">
                         <div className="col-lg-5 homeaboutsec-coltxt aos-init" data-aos="flip-left" data-aos-delay="150" data-aos-duration="2000" data-aos-easing="ease-in-out">
                             <div>
@@ -410,7 +406,6 @@ function Home() {
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde necessitatibus, obcaecati esse ratione corrupti quae similique error sequi debitis sint inventore, odit, accusamus molestias magni a neque perspiciatis molestiae praesentium.</p>
                             </div>
                         </div>
-
                         <div className="col-lg-6 homeaboutsec-colbox aos-init" data-aos="fade-up" data-aos-delay="150" data-aos-duration="2000" data-aos-easing="ease-in-out">
                             <div className="row homeaboutsec-roww homeaboutsec-roww-1">
                                 <div className="hombox-animation col-sm-6">
@@ -446,8 +441,16 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                </div >
-            </section >
+                </div>
+                {/* <!-- Adding stars and moon --> */}
+                <div className="homeabbbbb">
+                    <div className="star" style={{ top: '10%', left: '20%'}}></div>
+                    <div className="star" style={{top: '30%' , left: '50%' }}></div>
+                    <div className="star" style={{top: '70%' , left: '80%'}}></div>
+                    <div className="moon" style={{top: '40%' , left: '60%'}}></div>
+                </div>
+            </section>
+
 
 
 
