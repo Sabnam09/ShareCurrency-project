@@ -7,6 +7,8 @@ import { MdVerified } from "react-icons/md";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { FaBusinessTime } from "react-icons/fa6";
 import { MdDateRange } from "react-icons/md";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Home() {
     AOS.init();
@@ -344,7 +346,7 @@ function Home() {
                 <div className="container">
                     <div className="service-head">
                         <p className='mb-5'> <span>Latest</span> News </p>
-                    </div >
+                    </div>
                     <div className="row  aos-init" data-aos="fade-up">
                         <div className="col-md-4">
                             <div className="container">
