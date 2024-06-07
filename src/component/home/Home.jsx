@@ -7,7 +7,7 @@ import { MdVerified } from "react-icons/md";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { FaBusinessTime } from "react-icons/fa6";
 import { MdDateRange } from "react-icons/md";
-import AOS from 'aos';
+// import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 function Home() {
@@ -277,7 +277,7 @@ function Home() {
 
                 <div className="container-fluid">
                     <div className="row aos-init" data-aos="zoom-in-up">
-                        <div className="col-md-3 recentProjectssecolc">
+                        <div className="col-md-6 col-lg-3 recentProjectssecolc">
                             <div className='image-container'>
                                 <div className='recentimghoverbg'>
                                     <Link to="/" className="recentprojcthome-overlay-text">View More </Link>
@@ -285,7 +285,7 @@ function Home() {
                                 <img className="card-img-top" src="https://www.bankrate.com/2020/08/24165602/what-is-bitcoin.jpeg?auto=webp&optimize=high" alt="Card image" />
                             </div>
                         </div>
-                        <div className="col-md-3 recentProjectssecolc">
+                        <div className="col-md-6 col-lg-3 recentProjectssecolc">
                             <div className='image-container'>
                                 <div className='recentimghoverbg'>
                                     <Link to="/" className="recentprojcthome-overlay-text">View More </Link>
@@ -293,7 +293,7 @@ function Home() {
                                 <img className="card-img-top" src="https://skycommodity.in/static/media/day.13848a8db7a50bff9889.jpg" alt="Card image" />
                             </div>
                         </div>
-                        <div className="col-md-3 recentProjectssecolc">
+                        <div className="col-md-6 col-lg-3 recentProjectssecolc">
                             <div className='image-container'>
                                 <div className='recentimghoverbg'>
                                     <Link to="/" className="recentprojcthome-overlay-text">View More </Link>
@@ -301,7 +301,7 @@ function Home() {
                                 <img className="card-img-top" src="https://www.usatoday.com/money/blueprint/images/uploads/2023/02/08004747/how-to-buy-bitcoin-e1691470121926.jpg" alt="Card image" />
                             </div>
                         </div>
-                        <div className="col-md-3 recentProjectssecolc">
+                        <div className="col-md-6 col-lg-3 recentProjectssecolc">
                             <div className='image-container'>
                                 <div className='recentimghoverbg'>
                                     <Link to="/" className="recentprojcthome-overlay-text">View More </Link>
