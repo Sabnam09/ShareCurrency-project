@@ -15,6 +15,11 @@
 
 .about-sec1 {
   padding: 0px 10px;
+  background-image: url(https://img.freepik.com/premium-photo/abstract-background-design-images-wallpaper-ai-generated_643360-136065.jpg);
+  /* background-image: url('images/sec-bg-image-5.jpg'); */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  margin: 6px 0px;
 }
 
 .about-sec1coltext {
@@ -133,13 +138,18 @@
   background-color: rgba(135, 207, 235, 0.144);
   /* background-color: #f8f8f8; */
   text-align: center;
-  padding: 50px 10px;
+  padding: 40px 10px;
+  background-image: url(https://img.freepik.com/premium-photo/abstract-background-design-images-wallpaper-ai-generated_643360-131716.jpg?w=360);
+  /* background-image: url('images/sec-bg-image-5.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 6px 0px;
 }
 
 .about-sec-3 .container {
   box-shadow: 1px 2px 3px 4px #2e8b5763;
   padding: 42px;
-  background-color: #faebd747;
+  /* background-color: #e1ecf1fc; */
 }
 
 .about-sec-3-row img {
@@ -169,6 +179,8 @@
 
 .about-sec-3-col {
   margin: 30px 0px;
+  background: #80808063;
+    padding: 43px 0px;
 }
 
 .about-sec-3-col h1 {
@@ -181,14 +193,18 @@
 }
 
 .about-sec-4 {
-  padding: 80px 10px;
-  background-color: azure;
+  padding: 40px 10px;
+  background-image: url(https://img.freepik.com/premium-photo/abstract-background-design-images-wallpaper-ai-generated_643360-89545.jpg?w=360);
+  /* background-image: url('images/sec-bg-image-5.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 6px 0px;
 }
 
 .about-sec-4 img {
   background-color: skyblue;
   border-radius: 3px 25px 3px 25px;
-
+  box-shadow: 0px 0px 5px 5px darkcyan
 }
 
 .about-sec-4coltext {
@@ -332,7 +348,13 @@
 }
 
 .homourvaluessec {
-  margin-bottom: 100px;
+  margin-bottom: 70px !important;
+  padding: 10px 10px;
+  background-image: url(https://img.freepik.com/premium-photo/abstract-background-design-images-wallpaper-ai-generated_643360-92925.jpg);
+  /* background-image: url('images/sec-bg-image-5.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 6px 0px;
 }
 
 
@@ -346,8 +368,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 50px 35px;
-  margin-bottom: 130px;
-  box-shadow: 1px 2px 9px 14px #87cefa3d;
+  margin-bottom: 160px;
+  box-shadow: 1px 2px 9px 14px #87cefa;
 }
 
 .left-column,
@@ -370,12 +392,11 @@
 }
 
 .our-value-sec h3 {
-  margin-top: 30px;
+  margin-top: 18px;
   text-align: center;
   font-weight: bold;
   font-size: 32px;
   margin-bottom: 40px;
-  /* border-left: 3px solid orangered; */
 }
 
 .our-value-sec h3 span {
@@ -408,3 +429,14 @@
     width: 100%;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
