@@ -50,9 +50,7 @@ const MarketingPage = () => {
       <div className="about-sec-bg">
         <h1>Market</h1>
       </div>
-      
-      <div className="banner_background_img">
-      
+      <div className="banner_background_img1">
         <Container
           className="aos-init"
           data-aos="fade-left"
@@ -71,7 +69,8 @@ const MarketingPage = () => {
               //  height={400}
             />
           </div>
-          {/* </div> */}
+          </Container>
+           </div> 
           <div className="commodity-table-heading">
             <h2>COMMODITY MARKET TABLE</h2>
             <table className="commodity-table">
@@ -101,7 +100,9 @@ const MarketingPage = () => {
             </tbody> */}
             </table>
           </div>
-
+          
+          <div className="banner_background_img">
+          <Container>
           <div className="container_banner">
             <div className="banner_outer">
               <div className="col">
@@ -189,8 +190,10 @@ const MarketingPage = () => {
               </div>
             </div>
           </div>
-        </Container>
-      </div>
+          </Container>
+           </div>
+        
+        
     </>
   );
 };
