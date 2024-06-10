@@ -1,0 +1,65 @@
+.servicepage1sec1 {
+    padding: 60px 10px;
+}
+
+.servicepage1sec1 h1 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.servicepage1sec2 {
+    margin-bottom: 100px;
+    padding: 10px 40px;
+}
+
+.servicepage1sec2box:hover {
+    box-shadow: 1px 5px 20px 0px rgba(37, 82, 91, 0.2);
+}
+
+.servicepage1sec2box:hover .servicepage1sec2boxheddr p {
+    opacity: 1;
+    font-weight: bold;
+}
+.servicepage1sec2box:hover h4 {
+   color: skyblue;
+}
+
+.servicepage1sec2box {
+    border: 2px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 30px 30px;
+}
+
+.servicepage1sec2box p {
+    color: gray;
+}
+
+.servicepage1sec2boxheddr {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.servicepage1sec2boxheddr p {
+    font-size: 40px;
+    opacity: 0.4;
+}
+.servicepage1sec2boxheddr svg {
+    font-size: 50px;
+    margin-top: -11px;
+    color: skyblue;
+}
+
+.servicepage1sec2box h4 {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.842);
+}
+
+.servicepage1sec2box {
+    margin-bottom: 40px;
+}
+
+.service_background{
+    background-image: url(../../../public/images/service.png);
+    background-size: cover;
+}
