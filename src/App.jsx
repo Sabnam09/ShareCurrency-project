@@ -15,6 +15,7 @@ import Login from './component/user/Login';
 import Register from './component/user/Register';
 import Services from './component/Services/Services';
 import ServicePage1 from './component/Services/ServicePage1';
+import ServicePage2 from './component/Services/ServicePage2';
 import TermAndCondition from './component/pages/TermAndCondition';
 import PrivacyPolicy from './component/pages/PrivacyPolicy'
 import MarketingPage from './component/pages/MarketingPage';
@@ -35,6 +36,7 @@ function App() {
               <Route path="/featuresPage" element={<FeaturesPage />}></Route>
               <Route path="/services" element={<Services />}></Route>
               <Route path="/servicePage1" element={<ServicePage1 />}></Route>
+              <Route path="/servicePage2" element={<ServicePage2 />}></Route>
               <Route path='/login' element={<Login />}></Route>
               <Route path='/register' element={<Register />}></Route>
               <Route path='/contactus' element={<ContactUs />}></Route>

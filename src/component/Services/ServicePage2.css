@@ -1,0 +1,41 @@
+.servicepage2sec1{
+    padding: 100px 20px;
+
+    padding-bottom: 10px;
+    padding-top: 20px;
+    background-image: url(https://st3.depositphotos.com/30440304/34299/i/450/depositphotos_342994770-stock-photo-fluid-abstract-background-colorful-gradient.jpg);
+    /* background-image: url('images/sec-bg-image-5.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 6px 0px;
+}
+
+
+
+.ddddd{
+    background-color: brown;
+    padding: 20px;
+}
+
+
+
+
+@keyframes moveLeftRight {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(20px); }
+    100% { transform: translateX(0); }
+}
+
+@keyframes moveUpDown {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(10px); }
+    100% { transform: translateY(0); }
+}
+
+.ddddd {
+    animation: moveLeftRight 2s infinite;
+}
+
+.img-fluid {
+    animation: moveUpDown 3s infinite;
+}

@@ -1,12 +1,19 @@
 .background-featuresec {
-    position: relative;
-    background-image: url('images/feature_image.jpg');
+    /* position: relative; */
+    /* height: 900px; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+    /* padding-bottom: 10px; */
+    /* padding-top: 20px; */
+    background-image: url(https://img.freepik.com/premium-photo/abstract-background-design-images-wallpaper-ai-generated_643360-59527.jpg);
+    /* background-image: url('images/sec-bg-image-5.jpg'); */
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 900px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: 6px 0px;    
+
   }
 .sec-1{
     padding: 90px 60px;
@@ -60,7 +67,7 @@
     }
   }
   .featuresec-row {
-    padding: 30px 30px;
+    padding: 0px 30px;
   }
   
   .featuresec-roww {
@@ -109,6 +116,13 @@
     text-align: center;
     display: block;
     color: white;
+
+    background-image: url(https://i3.wp.com/static.vecteezy.com/system/resources/previews/026/307/268/original/cool-plain-blue-abstract-background-hd-wallpaper-design-free-vector.jpg?ssl=1);
+    /* background-image: url('images/sec-bg-image-5.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 6px 0px; 
 }
 .sec-2 h1{
     font-size: 25px;
@@ -119,6 +133,7 @@
 .sec-2 p{
     /* / color: gray; / */
     padding: 20px 200px; 
+    color: black;
 }
 .sec-2borderbtm img{
     height: 120px !important;
@@ -146,15 +161,24 @@
     font-weight: bold;
 }
 .featuresbox{
-    background-color: beige;
+    background-color: #f5f5dc85;
     padding: 30px 20px;
+    box-shadow: 1px 2px 4px 5px lightslategray;
 }
 .featuresbox svg{
     font-size: 30px;
     margin-bottom: 15px;
 }
 .sec-4{
-    padding: 80px 30px;
+    /* padding: 80px 30px; */
+
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20220115/pngtree-transparent-shape-blue-background-with-circle-in-corner-image_983023.jpg);
+    /* background-image: url('images/sec-bg-image-5.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 6px 0px; 
+    padding-bottom: 200px;
 }
 .sec-4row2{
     margin-top: 40px;
