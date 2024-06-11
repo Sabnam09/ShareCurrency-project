@@ -72,7 +72,7 @@ function FeaturesPage() {
                     </div>
                 </div>
             </div>
-           
+            
             <section className="sec-2">
                 <h1>Awesome Style</h1>
                 <p>Est At Euismod Ponderum Reformidans. Vivendo Imperdiet Usu Eu, Cum Ea Fabellas Adipisci, Suas Agam Ad Mei. Quo Mollis Euripidis Gloriatur Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero tempora quis incidunt at, velit quaerat repudiandae earum praesentium expedita laborum fuga quia adipisci magnam numquam nostrum cumque, sunt quam excepturi!.</p>
