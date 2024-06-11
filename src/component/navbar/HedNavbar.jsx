@@ -24,6 +24,7 @@ function HedNavbar() {
                                 <NavDropdown.Item href="Services">Service Main</NavDropdown.Item>
                                 <NavDropdown.Item href="ServicePage1">Service 1</NavDropdown.Item>
                                 <NavDropdown.Item href="ServicePage2">Service 2</NavDropdown.Item>
+                                <NavDropdown.Item href="">Service 2</NavDropdown.Item>
                                 <NavDropdown.Item href="#service3">Service 3</NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link href="contactus">Contact</Nav.Link>

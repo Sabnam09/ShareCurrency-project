@@ -27,13 +27,14 @@
     box-shadow: 5px 15px 20px #3a8d76;
 }
 
-.servicesecBoxdown:hover {
+
+.servicesecBoxdown:hover{
     background-color: darkcyan;
     color: white;
     margin-top: -140px;
 }
 
-.servicesecBoxup:hover {
+.servicesecBoxup:hover{
     background-color: darkcyan;
     color: white;
     margin-top: -190px;
@@ -127,6 +128,9 @@
     animation: previewShapeX 4s linear infinite;
 }
 
+.leftright-animation {
+    animation: previewShapeX 4s linear infinite;
+}
 @keyframes lefttannimat {
     0% {
         transform: translateX(20);
@@ -161,7 +165,12 @@
     background-color: #d7dfdd;
 }
 
-.servicesec-4box:hover {
+.servicesec-4box{
+    box-shadow: 9px 2px 27px #d7dfdd;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+}
+.servicesec-4box:hover{
     background-color: #3a8d76;
     color: white;
 }
