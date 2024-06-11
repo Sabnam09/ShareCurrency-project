@@ -175,6 +175,18 @@
     background-color: beige;
     padding: 30px 20px;
 }
+.featuresbox:hover {
+    box-shadow: 1px 5px 20px 0px rgba(85, 215, 241, 0.2);
+    background-color: rgb(60, 176, 248);
+}
+.featuresbox:hover p {
+    opacity: 1;
+    font-weight: bold;
+    color: white;
+}
+.featuresbox:hover h4 {
+   color: white;
+}
 .featuresbox svg{
     font-size: 30px;
     margin-bottom: 15px;
@@ -190,6 +202,7 @@
     margin: 6px 0px; 
     padding-bottom: 200px;
     padding: 80px 30px;
+    margin-bottom: 130px;
 }
 .sec-4row2{
     margin-top: 40px;
