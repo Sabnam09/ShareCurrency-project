@@ -1,41 +1,177 @@
 .servicepage2sec1{
     padding: 100px 20px;
-
     padding-bottom: 10px;
     padding-top: 20px;
-    background-image: url(https://st3.depositphotos.com/30440304/34299/i/450/depositphotos_342994770-stock-photo-fluid-abstract-background-colorful-gradient.jpg);
+    background-image: url(https://img.freepik.com/free-photo/colorful-background-with-alcohol-ink_24972-1282.jpg);
     /* background-image: url('images/sec-bg-image-5.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     margin: 6px 0px;
 }
 
+.servicepage2sec1{
+    padding-top: 40px;
+    /* padding-bottom: 300px; */
+}
+ .servicepage2sec1Row{
+    background-image: url('images/pattern-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(245,243,240);
+    margin: 0px;
+ }
+ .servicepage2sec1Coltxt{
+    padding: 20px 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-right: 70px;
+ }
+ .servicepage2sec1Coltxt h1{
+    font-weight: bold;
+    margin-bottom: 20px;
+ }
+ .servicepage2sec1Coltxt p:first-of-type {
+    color: brown;
+    font-size: 17px;
+  }
+ .servicepage2sec1Colimg{
+    margin-right: -10px;
+ }
 
-
-.ddddd{
-    background-color: brown;
+ .servicepage2sec1 {
+    position: relative;
+  }
+  
+  .red-box {
+    position: absolute;
+    top: 240px;
+    width: 181px;
+    left: 719px;
+    /* right: 20px; */
+    background-color: skyblue;
+    color: #fff;
     padding: 20px;
-}
+    text-align: center;
+    border-radius: 5px;
+    padding: 40px;
+  }
+  
+  .red-box h3 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .red-box sup {
+    font-size: 20px;
+  }
+  
+  .red-box p {
+    margin: 0;
+    font-size: 16px;
+  }
+
+
+
+  .servicepage2sec2{
+    padding-bottom: 200px;
+    padding-top: 20px;
+    background-image: url(https://img.freepik.com/foto-premium/wallpaper-abstract-background-design-modernbest-wallpaperwebsitefordecorai-generato_854748-45.jpg);
+    /* background-image: url('images/sec-bg-image-5.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 6px 0px;
+  }
+
+  .servicepage2sec2colvision{
+    background-color: white;
+    box-shadow: 3px 3px 4px 6px #80808033;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-left: 15px solid skyblue;
+    margin-top: 20px;
+    border-radius: 13px;
+  }
+  .servicepage2sec2colvision h2{
+    font-weight: bold;
+  }
+  .servicepage2sec2colvision svg{
+    font-size: 34px;
+    color: salmon;
+    margin-right: 10px;
+  }
+  .servicepage2sec2colvision p{
+    margin-top: 10px;
+    line-height: 33px;
+  }
+  .servicepage2sec2colmission{
+    background-color: white;
+    box-shadow: 3px 3px 4px 6px #80808033;
+    padding: 20px;
+    border-left: 15px solid skyblue;
+    border-radius: 13px;
+  }
+
+  .servicepage2sec2colmission h2{
+    font-weight: bold;
+  }
+  .servicepage2sec2colmission svg{
+    font-size: 34px;
+    color: salmon;
+    margin-right: 10px;
+  }
+  .servicepage2sec2colmission p{
+    margin-top: 10px;
+    line-height: 33px;
+  }
 
 
 
 
-@keyframes moveLeftRight {
-    0% { transform: translateX(0); }
-    50% { transform: translateX(20px); }
-    100% { transform: translateX(0); }
-}
 
-@keyframes moveUpDown {
-    0% { transform: translateY(0); }
-    50% { transform: translateY(10px); }
-    100% { transform: translateY(0); }
-}
 
-.ddddd {
-    animation: moveLeftRight 2s infinite;
-}
 
-.img-fluid {
-    animation: moveUpDown 3s infinite;
-}
+
+
+
+
+
+
+
+
+ .service-circle-container {
+    display: flex;
+    /* justify-content: space-around; */
+    margin-top: 20px;
+  }
+  
+  .service-circle {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #f3f3f3;
+    border: 5px solid rgb(112, 12, 12); /* Customize as per your need */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+  }
+  
+  .service-circle-inner {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .service-circle p {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+
+
+
+  
