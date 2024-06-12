@@ -1,17 +1,9 @@
 .servicepage2sec1{
-    padding: 100px 20px;
-    padding-bottom: 10px;
-    padding-top: 20px;
-    background-image: url(https://img.freepik.com/free-photo/colorful-background-with-alcohol-ink_24972-1282.jpg);
-    /* background-image: url('images/sec-bg-image-5.jpg'); */
+    padding: 50px 20px;
+    background-image: url("images/peakpx (26).jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 6px 0px;
-}
-
-.servicepage2sec1{
-    padding-top: 40px;
-    /* padding-bottom: 300px; */
 }
  .servicepage2sec1Row{
     background-image: url('images/pattern-1.png');
@@ -74,57 +66,98 @@
 
 
 
+
   .servicepage2sec2{
-    padding-bottom: 200px;
-    padding-top: 20px;
-    background-image: url(https://img.freepik.com/foto-premium/wallpaper-abstract-background-design-modernbest-wallpaperwebsitefordecorai-generato_854748-45.jpg);
-    /* background-image: url('images/sec-bg-image-5.jpg'); */
+    padding: 50px 20px;
+    padding-bottom: 230px;
+    background-image: url("images/peakpx (51).jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 6px 0px;
+    text-align: center;
+  }
+  .servicepage2sec2row{
+    display: flex;
+    justify-content: space-evenly;
   }
 
-  .servicepage2sec2colvision{
-    background-color: white;
-    box-shadow: 3px 3px 4px 6px #80808033;
-    padding: 20px;
-    margin-bottom: 50px;
-    border-left: 15px solid skyblue;
-    margin-top: 20px;
-    border-radius: 13px;
+  .servicepage2sec2card{
+    padding: 25px 20px;
   }
-  .servicepage2sec2colvision h2{
+  .servicepage2sec2card img{
+    height: 70px;
+    margin-bottom: 20px;
+  }
+  .missionhed{
     font-weight: bold;
+    color: darkcyan;
+    margin-bottom: 10px;
   }
-  .servicepage2sec2colvision svg{
-    font-size: 34px;
-    color: salmon;
-    margin-right: 10px;
+  .visionhed{
+    font-weight: bold;
+    color: orchid;
+    margin-bottom: 10px;
   }
-  .servicepage2sec2colvision p{
-    margin-top: 10px;
-    line-height: 33px;
-  }
-  .servicepage2sec2colmission{
-    background-color: white;
-    box-shadow: 3px 3px 4px 6px #80808033;
-    padding: 20px;
-    border-left: 15px solid skyblue;
-    border-radius: 13px;
+  .servicepage2sec2card p{
+    text-align: justify;
   }
 
-  .servicepage2sec2colmission h2{
-    font-weight: bold;
+
+  
+  @keyframes continuousAnimation {
+    0% {
+      transform: scale(1) rotate(3deg);
+    }
+    50% {
+      transform: scale(1.08) rotate(8deg);
+    }
+    100% {
+      transform: scale(1) rotate(-10deg);
+    }
   }
-  .servicepage2sec2colmission svg{
-    font-size: 34px;
-    color: salmon;
-    margin-right: 10px;
+
+
+  .servicepage2sec2card {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    border-radius: 8px; /* Optional: add rounded corners */
+    background-color: #fff; /* Ensure the background is white */
+    transition: transform 0.3s ease; /* Optional: add a transform effect on hover */
+    animation: continuousAnimation 5s infinite ease-in-out;
   }
-  .servicepage2sec2colmission p{
-    margin-top: 10px;
-    line-height: 33px;
+
+  .servicepage2sec2card:hover {
+    transform: translateY(-10px); /* Optional: lift the card slightly on hover */
   }
+
+
+  .mission-corner-design {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 150px solid darkcyan;  /* Orange color */
+    border-right: 190px solid transparent;
+  }
+  .vision-corner-design {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 150px solid orchid;  /* Orange color */
+    border-right: 190px solid transparent;
+  }
+  
+  .servicepage2sec2card-body {
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;  /* Adjust as needed */
+  }
+  
+
 
 
 
