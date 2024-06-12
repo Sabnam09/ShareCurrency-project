@@ -88,9 +88,8 @@
 
 .home-sec-1 {
   padding: 30px 20px;
-  /* background-image: url('images/sec-bg-image-1.jpg'); */
-  /* background-image: url(https://img.freepik.com/premium-photo/abstract-background-design-images-wallpaper-ai-generated_643360-59762.jpg); */
-  background-image: url(https://img.freepik.com/premium-photo/wallpaper-abstract-background-design-modern-best-wallpaper-website-decor-graphic-ai-generated_854748-229.jpg);
+  background-image: url("images/peakpx (5).jpg");
+  /* background-image: url(https://img.freepik.com/premium-photo/wallpaper-abstract-background-design-modern-best-wallpaper-website-decor-graphic-ai-generated_854748-229.jpg); */
 
   /* background-repeat: no-repeat; */
   background-size: cover;
@@ -100,7 +99,7 @@
 .home-sec-1col1 {
   padding: 2em 2em 2em 2em;
   background-image: url(https://web.moxcreative.com/ventuure/wp-content/uploads/sites/20/2023/03/Pattern_1.png);
-  background-position: top left;
+  background-position: top right;
   background-repeat: no-repeat;
   background-size: 100px auto;
 }
@@ -144,8 +143,7 @@
 .service-sec {
   padding-bottom: 10px;
   padding-top: 20px;
-  background-image: url(https://img.freepik.com/premium-photo/wallpaper-abstract-background-design-modern-best-wallpaper-website-decor-graphic-ai-generated_854748-130.jpg);
-  /* background-image: url('images/sec-bg-image-5.jpg'); */
+  background-image: url("images/peakpx (25).jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 6px 0px;
@@ -228,8 +226,7 @@
 .meetOurTeamsec {
   padding-bottom: 100px !important;
   padding: 0px 20px;
-  background-image: url(https://img.freepik.com/premium-photo/amazing-abstract-art-background-wallpaper_1084438-1073.jpg?w=360);
-  /* background-image: url('images/sec-bg-image-9.jpg'); */
+  background-image: url("images/peakpx (21).jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 6px 0px;
@@ -240,9 +237,7 @@
 
 .recentProjectssec {
   padding: 30px 20px;
-  /* background-image: url('images/sec-bg-image-1.jpg'); */
-  background-image: url(https://i.pinimg.com/736x/6d/20/7d/6d207dae9c9eb3272b0026c5c3b2b066.jpg);
-
+  background-image: url("images/peakpx (50).jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 6px 0px;
@@ -357,11 +352,10 @@
 
 .progress-bar {
   height: 20px !important;
-  background-color: skyblue !important;
+  background-color: #b735039e !important;
   border-radius: 25px;
-  /* text-align: center; */
   line-height: 30px;
-  color: black;
+  color: white;
   transition: width 0.5s ease;
 }
 
@@ -374,15 +368,19 @@
 .homeaboutsec {
   padding-top: 20px;
   padding: 0px 20px;
-  /* background-image: url('images/sec-bg-image-8.avif'); */
-  background-image: url(https://img.freepik.com/premium-photo/marble-ink-abstract-art-from-exquisite-original-painting-abstract-background_31965-39584.jpg);
+  background-image: url("images/peakpx (33).jpg");
   /* background-repeat: no-repeat; */
   background-size: cover;
   margin: 6px 0px;
 }
+.homeaboutsec-divvtext{
+  background-color: rgba(255, 255, 255, 0.692);
+  padding: 20px;
+  box-shadow: 3px 3px 4px 5px gray;
+}
 
 .homboxxDown {
-  background-color: rgb(143, 185, 141);
+  background-color: skyblue;
   border-radius: 13px;
   padding: 30px 35px;
   box-shadow: 1px 1px 5px 4px rgb(70, 66, 66);
@@ -414,7 +412,7 @@
 }
 
 .homboxxUp {
-  background-color: rgb(143, 185, 141);
+  background-color: skyblue;
   border-radius: 13px;
   padding: 30px 35px;
   margin-top: -50px;
@@ -534,8 +532,7 @@
 .homnewssection {
   padding-top: 30px;
   padding: 0px 20px;
-  background-image: url(https://img.freepik.com/premium-photo/abstract-background-wallpaper-design-image-with-curve-line-backdrop-presentation_974629-93935.jpg);
-  /* background-image: url('images/sec-bg-image-5.jpg'); */
+  background-image: url("images/peakpx (47).jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 6px 0px;
