@@ -44,7 +44,6 @@
 .home-slider-texts p,
 .home-slider-texts a {
   margin-bottom: 15px;
-  /* Optional: Add spacing between elements */
 }
 
 .home-slider-texts button {
@@ -53,7 +52,6 @@
   padding: 4px 20px;
   cursor: auto;
   margin-bottom: 30px;
-  /* margin-top: 20px; */
   font-size: 13px;
 }
 
@@ -99,7 +97,7 @@
 .home-sec-1col1 {
   padding: 2em 2em 2em 2em;
   background-image: url(https://web.moxcreative.com/ventuure/wp-content/uploads/sites/20/2023/03/Pattern_1.png);
-  background-position: top right;
+  background-position: top left;
   background-repeat: no-repeat;
   background-size: 100px auto;
 }
@@ -143,7 +141,7 @@
 .service-sec {
   padding-bottom: 10px;
   padding-top: 20px;
-  background-image: url("images/peakpx (22).jpg");
+  background-image: url("images/backgrounds-1.png");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 6px 0px;
@@ -160,13 +158,25 @@
   text-align: center;
   padding-top: 25px;
 }
+.meetOurTeamsec-head {
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 25px;
+}
 
 .service-head span {
-  color: brown;
+  color: skyblue;
+}
+.meetOurTeamsec-head span {
+  color: skyblue;
 }
 
 .service-head p {
   color: #0c1f38;
+}
+.meetOurTeamsec-head p {
+  color: whitesmoke;
 }
 
 .service-text {
@@ -226,7 +236,7 @@
 .meetOurTeamsec {
   padding-bottom: 100px !important;
   padding: 0px 20px;
-  background-image: url("images/background_img5.jpg");
+  background-image: url("images/backgrounds-7.png");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 6px 0px;
@@ -237,7 +247,7 @@
 
 .recentProjectssec {
   padding: 30px 20px;
-  background-image: url("images/peakpx (50).jpg");
+  background-image: url("images/backgrounds-2.png");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 6px 0px;
@@ -365,17 +375,21 @@
   margin-bottom: 20px;
 }
 
+.homeabbbbb{
+  margin-top: -55px;
+}
+
 .homeaboutsec {
   padding-top: 20px;
   padding: 0px 20px;
-  background-image: url("images/peakpx (4).jpg");
-  /* background-repeat: no-repeat; */
+  background-image: url("images/backgrounds-6.png");
+  background-repeat: no-repeat;
   background-size: cover;
   margin: 6px 0px;
 }
 .homeaboutsec-divvtext{
   background-color: rgba(255, 255, 255, 0.692);
-  padding: 20px;
+  padding: 45px 25px;
   box-shadow: 3px 3px 4px 5px gray;
 }
 
@@ -457,6 +471,10 @@
 .homeaboutsec-coltxt h2 {
   color: navy;
   font-weight: bold;
+  margin-bottom: 20px;
+}
+.homeaboutsec-coltxt p {
+  line-height: 35px;
 }
 
 
@@ -532,7 +550,7 @@
 .homnewssection {
   padding-top: 30px;
   padding: 0px 20px;
-  background-image: url("images/peakpx (47).jpg");
+  background-image: url("images/peakpx (24).jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 6px 0px;
