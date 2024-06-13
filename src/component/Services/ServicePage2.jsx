@@ -47,28 +47,32 @@ function ServicePage2() {
 
             <section className='servicepage2sec2'>
                 <div className="container">
-                    <div className="row">
-                        <div className="col-12 servicepage2sec2colvision">
-                            <div className='d-flex'>
-                            <BsRocketFill />
-                            <h2>Our Vision</h2>
-                                </div>                    
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quos natus ipsam a quia enim nulla maiores, ex adipisci, debitis error optio voluptatum aliquam, molestias explicabo voluptas laboriosam quasi eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas blanditiis odit inventore alias sunt eos veniam autem sit repellendus pariatur. Vero mollitia, quae magnam molestiae a delectus voluptas illum cumque.</p>
+                    <div className="row servicepage2sec2row">
+                        <div className="col-4 aos-init" data-aos="fade-left" data-aos-delay="70" data-aos-duration="4000" data-aos-easing="ease-in-out">
+                            <div className="servicepage2sec2card card">
+                            <div className="mission-corner-design"></div> {/* New corner design div */}
+                                <div className="servicepage2sec2card-body card-body">
+                                    <img src='/images/mission-removebg-preview.png' className='img-fluid' alt="working with investments" />
+                                    <h2 className='missionhed'>Our Vsion</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi dolorum blanditiis assumenda rem laudantium est illum repellendus expedita doloremque tempore, maxime debitis perferendis ipsam rerum ducimus explicabo, sapiente nemo aperiam!</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-12 servicepage2sec2colmission">
-                            <div className='d-flex'> 
-                            <BsEyeFill />
 
-                            <h2>Our Mission</h2>
-                            </div>                                
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quos natus ipsam a quia enim nulla maiores, ex adipisci, debitis error optio voluptatum aliquam, molestias explicabo voluptas laboriosam quasi eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas blanditiis odit inventore alias sunt eos veniam autem sit repellendus pariatur. Vero mollitia, quae magnam molestiae a delectus voluptas illum cumque.</p>
+                        <div className="col-4 aos-init" data-aos="fade-right" data-aos-delay="70" data-aos-duration="4000" data-aos-easing="ease-in-out">
+                            <div className="servicepage2sec2card card">
+                                <div className="vision-corner-design"></div> {/* New corner design div */}
+                                <div className="servicepage2sec2card-body card-body">
+                                    <img src='images/visionbbulb-removebg-preview.png' className='img-fluid' alt="working with investments"></img>
+                                    <h2 className='visionhed'>Our Vsion</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi dolorum blanditiis assumenda rem laudantium est illum repellendus expedita doloremque tempore, maxime debitis perferendis ipsam rerum ducimus explicabo, sapiente nemo aperiam!</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-           
+
 
         </>
     )

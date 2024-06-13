@@ -28,7 +28,7 @@
 
 .footer-copyright {
      text-align: center;
-     background-color: #0177c1;
+     background-color: #036161;
      color: white;
      padding: 6px 0px;
      font-size: 12px;
@@ -68,12 +68,16 @@
 }
 
 .footfrtextcol {
-     margin-top: 35px;
+     /* margin-top: 35px; */
      padding: 0px 30px;
 }
 
+.footer-main h5{
+     font-weight: bold;
+     color: darkcyan
+}
 .footermainsec {
-     background-image: url(https://t4.ftcdn.net/jpg/04/72/60/39/360_F_472603936_gtZ5ULKjzrVqN5nvVl9tiFJtak2ikbnb.jpg);
+     background-image: url("images/peakpx (54).jpg");
      background-repeat: no-repeat;
      background-size: cover;
      background-position: top;

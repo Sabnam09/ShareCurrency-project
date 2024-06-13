@@ -272,8 +272,7 @@ function Home() {
                 <div className="service-head">
                     <p> <span>Recent</span> Projects </p>
                 </div>
-                <p className="service-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                    Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <p className="service-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 
                 <div className="container-fluid">
                     <div className="row aos-init" data-aos="zoom-in-up">
@@ -336,7 +335,7 @@ function Home() {
                         </div>
 
                         <div className="col-md-6 home-sec-1col1 aos-init" data-aos="fade-up">
-                            <img src='https://web.moxcreative.com/ventuure/wp-content/uploads/sites/20/2023/03/working-with-investments-.jpg' className='img-fluid'></img>
+                            <img src='images/homesec-recent-imgg.jpg' className='img-fluid'></img>
                         </div>
                     </div>
                 </div>
@@ -401,7 +400,7 @@ function Home() {
                     </div>
                     <div className="row homeaboutsec-row">
                         <div className="col-lg-5 homeaboutsec-coltxt aos-init" data-aos="flip-left" data-aos-delay="150" data-aos-duration="2000" data-aos-easing="ease-in-out">
-                            <div>
+                            <div className="homeaboutsec-divvtext">
                                 <h2>Know About Share Currency</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde necessitatibus, obcaecati esse ratione corrupti quae similique error sequi debitis sint inventore, odit, accusamus molestias magni a neque perspiciatis molestiae praesentium.</p>
                             </div>
@@ -450,9 +449,6 @@ function Home() {
                     <div className="moon" style={{top: '40%' , left: '60%'}}></div>
                 </div>
             </section>
-
-
-
 
             <section className='meetOurTeamsec'>
                 <div className="container">
