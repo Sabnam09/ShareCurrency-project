@@ -6,6 +6,7 @@
 .servicesec-1 {
     background-color: skyblue;
     margin-top: 200px;
+    /* background-image: url('images/peakpx (54).jpg'); */
 }
 
 .servichedd {
@@ -14,7 +15,7 @@
 
 .servichedd h1 {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 30px;
     font-weight: bold;
     color: cadetblue;
 }
@@ -60,10 +61,8 @@
 }
 
 .servicesec-2 {
-    /* background: #80808014; */
     padding: 50px 0px;
-    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230517/pngtree-blue-background-images-stock-photos-vectors-free-download-image_2598904.jpg);
-    /* background-image: url('images/sec-bg-image-5.jpg'); */
+    background-image: url('images/backgrounds-5.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 6px 0px;
@@ -87,8 +86,8 @@
 
 .servicesec-3 {
     padding: 50px 0px;
-    background-image: url(https://img.freepik.com/premium-photo/wavy-abstract-holographic-background_833908-948.jpg);
-    /* background-image: url('images/sec-bg-image-5.jpg'); */
+    /* background-image: url('images/peakpx (69).jpg'); */
+    background-image: url('images/backgrounds-6.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 6px 0px;
@@ -151,25 +150,28 @@
 
 .servicesec-4 {
     padding: 50px 0px;
-    background-image: url(https://png.pngtree.com/background/20230303/original/pngtree-blue-background-image-hd-wallpaper-free-vector-picture-image_2083395.jpg);
-    /* background-image: url('images/sec-bg-image-5.jpg'); */
+    background-image: url('images/backgrounds-11.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 6px 0px;
 }
 
 .servicesec-4box {
-    box-shadow: 9px 2px 27px #d7dfdd;
+    box-shadow: 0px 1px 12px 2px #060f248c;
     padding: 30px 20px;
     margin-bottom: 30px;
-    background-color: #d7dfdd;
+    background-color: #f3f6ff;
+    /* background-color: #d7dfdd; */
+}
+.servicesec-4colimag{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.servicesec-4colimag div{
+    margin-top: -130px;
 }
 
-.servicesec-4box{
-    box-shadow: 9px 2px 27px #d7dfdd;
-    padding: 30px 20px;
-    margin-bottom: 30px;
-}
 .servicesec-4box:hover{
     background-color: #3a8d76;
     color: white;
