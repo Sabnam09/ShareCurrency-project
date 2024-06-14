@@ -8,7 +8,7 @@
 
 .banner_background_img{
   position: relative;
-    background-image: url('images/marketing7.jpg');
+    background-image: url('images/background_img15.png');
     background-size: cover;
     background-position: center;
 }
@@ -104,16 +104,29 @@
   padding-right: 20px;
   z-index: 1;
   background-color: white;
+  border-radius: 100px 0 0 0;
 }
 
-.banner-box:hover {
+.banner-box2 {
+  box-shadow: 0px 0px 10px rgba(166, 162, 162, 0.5);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 0 100px 0 0;
+}
+
+.banner-box .banner-box2:hover {
   background-color: beige;
 }
 
 .sub_banner_image img {
   max-width: 600px;
   height: 350px;
-  border-radius: 20px;
+  /* border-radius: 20px; */
+  border-radius: 150px 0 0 0;
   transition: transform 0.5s ease;
   transform: scale(0.9);
 }
@@ -123,10 +136,12 @@
 }
 
 .sub_banner_image1 img {
-  max-width: 700px;
+  margin-left: 30px;
+  max-width: 850px;
   height: 350px;
-  margin-left: 20px;
-  border-radius: 20px;
+  /* margin-left: 20px; */
+  /* border-radius: 20px; */
+  border-radius: 0 150px 0 0;
   transition: transform 0.5s ease;
   transform: scale(0.9);
 }
@@ -139,6 +154,10 @@
   color: #333;
   font-size: 24px;
   margin-bottom: 10px;
+
+}
+.stock-title {
+  margin-left: 15px;
 }
 
 .Stock-title p {
@@ -146,9 +165,12 @@
   font-size: 16px;
   line-height: 1.5;
 }
-
+.title-stock{
+  margin-left: 10px;
+}
 .btn_wrapper {
   margin-top: 20px;
+  margin-left: 20px;
 }
 
 .btn_wrapper .btn {
