@@ -292,20 +292,22 @@ function Home() {
                                 <img className="card-img-top" src="https://skycommodity.in/static/media/day.13848a8db7a50bff9889.jpg" alt="Card image" />
                             </div>
                         </div>
-                        <div className="col-md-3 recentProjectssecolc">
-                            <div className='image-container'>
-                                <div className='recentimghoverbg'>
-                                    <Link to="/" className="recentprojcthome-overlay-text">View More </Link>
-                                </div>
-                                <img className="card-img-top" src="https://www.usatoday.com/money/blueprint/images/uploads/2023/02/08004747/how-to-buy-bitcoin-e1691470121926.jpg" alt="Card image" />
-                            </div>
-                        </div>
+
                         <div className="col-md-3 recentProjectssecolc">
                             <div className='image-container'>
                                 <div className='recentimghoverbg'>
                                     <Link to="/" className="recentprojcthome-overlay-text">View More </Link>
                                 </div>
                                 <img className="card-img-top" src="https://imageio.forbes.com/specials-images/dam/imageserve/908633080/960x0.jpg?height=474&width=711&fit=bounds" alt="Card image" />
+                            </div>
+                        </div>
+
+                        <div className="col-md-3 recentProjectssecolc">
+                            <div className='image-container'>
+                                <div className='recentimghoverbg'>
+                                    <Link to="/" className="recentprojcthome-overlay-text">View More </Link>
+                                </div>
+                                <img className="card-img-top" src="https://www.usatoday.com/money/blueprint/images/uploads/2023/02/08004747/how-to-buy-bitcoin-e1691470121926.jpg" alt="Card image" />
                             </div>
                         </div>
                     </div>
@@ -315,7 +317,9 @@ function Home() {
                 {/* <section className='sec-progressbar'> */}
                 <div className="container">
                     <div className="row">
-
+                        <div className="col-md-6 home-sec-1col1 aos-init" data-aos="fade-up">
+                            <img src='images/homesec-recent-imgg.jpg' className='img-fluid'></img>
+                        </div>
                         <div className="col-md-6 sec-progressbarcoltext ">
                             <h2>Think fresh, work faster, grow smarter, save money.</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
@@ -332,10 +336,6 @@ function Home() {
                                     <div className="progress-bar" style={{ width: '30%' }}>30%</div>
                                 </div>
                             </div>
-                        </div>
-
-                        <div className="col-md-6 home-sec-1col1 aos-init" data-aos="fade-up">
-                            <img src='images/homesec-recent-imgg.jpg' className='img-fluid'></img>
                         </div>
                     </div>
                 </div>
@@ -443,16 +443,16 @@ function Home() {
                 </div>
                 {/* <!-- Adding stars and moon --> */}
                 <div className="homeabbbbb">
-                    <div className="star" style={{ top: '10%', left: '20%'}}></div>
-                    <div className="star" style={{top: '30%' , left: '50%' }}></div>
-                    <div className="star" style={{top: '70%' , left: '80%'}}></div>
-                    <div className="moon" style={{top: '40%' , left: '60%'}}></div>
+                    <div className="star" style={{ top: '10%', left: '20%' }}></div>
+                    <div className="star" style={{ top: '30%', left: '50%' }}></div>
+                    <div className="star" style={{ top: '70%', left: '80%' }}></div>
+                    <div className="moon" style={{ top: '40%', left: '60%' }}></div>
                 </div>
             </section>
 
             <section className='meetOurTeamsec'>
                 <div className="container">
-                    <div className="service-head">
+                    <div className="meetOurTeamsec-head">
                         <p> <span>Meet Our</span> Teams </p>
                     </div>
                     <div className="row meetOurTeamsecroww aos-init" data-aos="zoom-out-up">

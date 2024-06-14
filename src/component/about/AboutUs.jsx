@@ -37,16 +37,16 @@ const AboutUs = () => {
             <section className='about-sec1'>
                 <div className="container">
                     <div className="row">
+                        
+                    <div className='col-md-6'>
+                            <img src="images/10289216-removebg-preview.png" className='img-fluid leftright-animation'></img>
+                        </div>
                         <div className="col-md-5 about-sec1coltext aos-init" data-aos="fade-down" data-aos-duration="4000" data-aos-easing="ease-in-out">
                             <div>
                                 <h5>ABOUT US</h5>
                                 <h2>ShareWolves Training Academy</h2>
                                 <p>We’re passionate about educating people to invest and achieve financial independence in stock market and derivatives trading. Our goal is to provide you with the ultimate trading experience. Our institutional technical research and strategies in accordance with upcoming events in current global and domestic markets help our clients and students to stay ahead of the curve.</p>
                             </div>
-                        </div>
-
-                        <div className='col-md-6'>
-                            <img src="images/10289216-removebg-preview.png" className='img-fluid leftright-animation'></img>
                         </div>
                     </div>
                 </div>
@@ -85,25 +85,34 @@ const AboutUs = () => {
                     </div>
                     <div className="row about-sec-3-row">
                         <div className="col-lg-4 about-sec-3-col">
+                            <div className='about-sec-3-coldivbg'>
                             <div className='about-sec-3-imgLogo'>
                                 <img src="images/box-icon-f.png" alt="photo-md"></img>
                             </div>
                             <h1>Payment Options</h1>
                             <p>Morbi eget varius risus, ut venenatis libero pellentesque in porta dui.</p>
+
+                            </div>
                         </div>
                         <div className="col-lg-4 about-sec-3-col">
-                            <div className='about-sec-3-imgLogo'>
+                        <div className='about-sec-3-coldivbg'>
+                        <div className='about-sec-3-imgLogo'>
                                 <img src="images/box-icon-g.png" alt="photo-md"></img>
                             </div>
                             <h1>Strong Security</h1>
                             <p>Morbi eget varius risus, ut venenatis libero pellentesque in porta dui.</p>
+
+                            </div>
                         </div>
                         <div className="col-lg-4 about-sec-3-col">
-                            <div className='about-sec-3-imgLogo'>
+                        <div className='about-sec-3-coldivbg'>
+                        <div className='about-sec-3-imgLogo'>
                                 <img src="images/box-icon-h.png" alt="photo-md"></img>
                             </div>
                             <h1>Words Coverage</h1>
                             <p>Morbi eget varius risus, ut venenatis libero pellentesque in porta dui.</p>
+                                
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -142,7 +151,10 @@ const AboutUs = () => {
             <section className='about-sec-4'>
                 <div className="container">
                     <div className="row about-sec-4row1">
-                       
+                    <div className="col-md-6 about-sec-4coltextimgg">
+                            <img src='https://www.sharewolves.com/images/resource/1.png' className='img-fluid'>        
+                            </img>
+                        </div>                       
                         <div className="col-md-6 about-sec-4coltext">
                             <div>
                                 <h1>Our Mentor</h1>
@@ -155,29 +167,24 @@ const AboutUs = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-md-6 about-sec-4coltextimgg">
-                            <img src='https://www.sharewolves.com/images/resource/1.png' className='img-fluid'>        
-                            </img>
-                        </div>
+                        
                     </div>
-                    <div className="row about-sec-4row2">
-
+                    <div className="row about-sec-4row2">                        
+                        <div className="col-md-6 about-sec-4coltext">
+                            <div>
+                                <h1>Our Mentor</h1>
+                                <ul>
+                                    <li>The Technical Research Analyst</li>
+                                    <li>The TEDx Speaker</li>
+                                    <li>MBA in Marketing & Finance</li>
+                                    <li>Article writer for economic times</li>
+                                    <li>Corporate financial coach</li>
+                                </ul>
+                            </div>
+                        </div>
                         <div className="col-md-6 about-sec-4coltextimgg">
                             <img src='https://www.sharewolves.com/images/resource/2.png' className='img-fluid'>
                             </img>
-                        </div>
-                        
-                        <div className="col-md-6 about-sec-4coltext">
-                            <div>
-                                <h1>Our Mentor</h1>
-                                <ul>
-                                    <li>The Technical Research Analyst</li>
-                                    <li>The TEDx Speaker</li>
-                                    <li>MBA in Marketing & Finance</li>
-                                    <li>Article writer for economic times</li>
-                                    <li>Corporate financial coach</li>
-                                </ul>
-                            </div>
                         </div>
                     </div>
                 </div>

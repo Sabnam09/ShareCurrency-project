@@ -15,9 +15,9 @@
 
 .about-sec1 {
   padding: 0px 10px;
-  background-image: url(https://img.freepik.com/premium-photo/abstract-background-design-images-wallpaper-ai-generated_643360-136065.jpg);
-  /* background-image: url('images/sec-bg-image-5.jpg'); */
-  /* background-repeat: no-repeat; */
+  background-image: url("images/backgrounds-3.png");
+  /* background-image: url("images/peakpx (59).jpg"); */
+  background-repeat: no-repeat;
   background-size: cover;
   margin: 6px 0px;
 }
@@ -67,14 +67,13 @@
 }
 
 .about-sec2 {
-  background-image: url(https://manybackgrounds.com/images/hd/stock-market-line-chart-tcl4cehaa9xhfrqi.jpg);
+  background-image: url("images/peakpx (13).jpg");
   padding: 90px 15px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   color: white;
   position: relative;
-  /* Ensure the pseudo-element is positioned relative to this element */
 }
 
 .about-sec2::after {
@@ -135,12 +134,10 @@
 
 
 .about-sec-3 {
-  background-color: rgba(135, 207, 235, 0.144);
-  /* background-color: #f8f8f8; */
+  background-image: url("images/peakpx (4).jpg");
   text-align: center;
   padding: 40px 10px;
-  background-image: url(https://img.freepik.com/premium-photo/abstract-background-design-images-wallpaper-ai-generated_643360-131716.jpg?w=360);
-  /* background-image: url('images/sec-bg-image-5.jpg'); */
+  /* background-image: url(https://img.freepik.com/premium-photo/abstract-background-design-images-wallpaper-ai-generated_643360-131716.jpg?w=360); */
   background-repeat: no-repeat;
   background-size: cover;
   margin: 6px 0px;
@@ -178,10 +175,20 @@
 }
 
 .about-sec-3-col {
-  margin: 30px 0px;
+  /* margin: 30px 0px;
   background: #80808063;
-    padding: 43px 0px;
+    padding: 43px 0px; */
 }
+.about-sec-3-coldivbg{
+  background-color: white;
+  padding: 35px 0px;
+  box-shadow: 3px 4px 5px 6px skyblue;
+}
+.about-sec-3-coldivbg:hover{
+  background-color: rgba(135, 207, 235, 0.418);
+  margin-top: -3px;
+}
+
 
 .about-sec-3-col h1 {
   font-size: 25px;
@@ -194,15 +201,14 @@
 
 .about-sec-4 {
   padding: 40px 10px;
-  background-image: url(https://img.freepik.com/premium-photo/abstract-background-design-images-wallpaper-ai-generated_643360-89545.jpg?w=360);
-  /* background-image: url('images/sec-bg-image-5.jpg'); */
-  background-repeat: no-repeat;
+  background-image: url('images/peakpx (64).jpg');
+  /* background-repeat: no-repeat; */
   background-size: cover;
   margin: 6px 0px;
 }
 
 .about-sec-4 img {
-  background-color: skyblue;
+  background-color: bisque;
   border-radius: 3px 25px 3px 25px;
   box-shadow: 0px 0px 5px 5px darkcyan
 }
@@ -256,7 +262,7 @@
 /* Our Field Section.css */
 .background-section {
   position: relative;
-  background-image: url('images/stockimg.jpg');
+  background-image: url("images/peakpx (16).jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -350,8 +356,7 @@
 .homourvaluessec {
   margin-bottom: 70px !important;
   padding: 10px 10px;
-  background-image: url(https://img.freepik.com/premium-photo/abstract-background-design-images-wallpaper-ai-generated_643360-92925.jpg);
-  /* background-image: url('images/sec-bg-image-5.jpg'); */
+  background-image: url('images/peakpx (67).jpg');
   background-repeat: no-repeat;
   background-size: cover;
   margin: 6px 0px;
@@ -369,7 +374,7 @@
   justify-content: space-between;
   padding: 50px 35px;
   margin-bottom: 160px;
-  box-shadow: 1px 2px 9px 14px #87cefa;
+  box-shadow: 1px 2px 9px 14px #71769f;
 }
 
 .left-column,
