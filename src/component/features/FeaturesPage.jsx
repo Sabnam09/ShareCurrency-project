@@ -22,7 +22,18 @@ function FeaturesPage() {
                     <div className="col-lg-7 featuresec-boxes">
                         <section className="sec-1">
                             <div className="row zigzag-row">
-                                <div className="col-6 zigzag-box offset-up">
+                                <div className="col-6 col-sm-6 col-12 zigzag-box offset-up">
+                                    <div className="sec-1Box  featurebox-animation">
+                                        <div className="dd">
+                                            <FaBriefcase />
+                                        </div>
+                                        <div className="sec-1text">
+                                            <h1>Our Approach</h1>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur a minima ullam.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-6 col-sm-6 col-12 zigzag-box offset-down">
                                     <div className="sec-1Box featurebox-animation">
                                         <div className="dd">
                                             <FaBriefcase />
@@ -33,18 +44,7 @@ function FeaturesPage() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-6 zigzag-box offset-down">
-                                    <div className="sec-1Box featurebox-animation">
-                                        <div className="dd">
-                                            <FaBriefcase />
-                                        </div>
-                                        <div className="sec-1text">
-                                            <h1>Our Approach</h1>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur a minima ullam.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-6 zigzag-box offset-up">
+                                <div className="col-6 col-sm-6 col-12 zigzag-box offset-up">
                                     <div className="sec-1Box featurebox-animation">
                                         <div className="dd">
                                             <FaBriefcase />
@@ -56,7 +56,7 @@ function FeaturesPage() {
                                     </div>
                                     <br />
                                 </div>
-                                <div className="col-6 zigzag-box offset-down">
+                                <div className="col-6 col-sm-6 col-12 zigzag-box offset-down">
                                     <div className="sec-1Box featurebox-animation">
                                         <div className="dd">
                                             <FaBriefcase />
@@ -98,41 +98,42 @@ function FeaturesPage() {
             </section>
 
             <section className="sec-4">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-6">
-                            <div className="featuresbox">
-                                <MdOutlineFeaturedPlayList />
-                                <h4>Features Hedding</h4>
-                                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum sapiente iste at fugiat dicta eaque nemo architecto tempora laudantium. </p>
-                            </div>
-                        </div>
-                        <div className="col-6">
-                            <div className="featuresbox">
-                                <MdOutlineFeaturedPlayList />
-                                <h4>Features Hedding</h4>
-                                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum sapiente iste at fugiat dicta eaque nemo architecto tempora laudantium. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row sec-4row2">
-                        <div className="col-6">
-                            <div className="featuresbox">
-                                <MdOutlineFeaturedPlayList />
-                                <h4>Features Hedding</h4>
-                                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum sapiente iste at fugiat dicta eaque nemo architecto tempora laudantium. </p>
-                            </div>
-                        </div>
-                        <div className="col-6">
-                            <div className="featuresbox">
-                                <MdOutlineFeaturedPlayList />
-                                <h4>Features Hedding</h4>
-                                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum sapiente iste at fugiat dicta eaque nemo architecto tempora laudantium. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+      <div className="container">
+        <div className="row">
+          <div className="col-12 col-md-6">
+            <div className="featuresbox">
+              <MdOutlineFeaturedPlayList />
+              <h4>Features Heading</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum sapiente iste at fugiat dicta eaque nemo architecto tempora laudantium.</p>
+            </div>
+          </div>
+          <div className="col-12 col-md-6">
+            <div className="featuresbox">
+              <MdOutlineFeaturedPlayList />
+              <h4>Features Heading</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum sapiente iste at fugiat dicta eaque nemo architecto tempora laudantium.</p>
+            </div>
+          </div>
+        </div>
+        <div className="row sec-4row2">
+          <div className="col-12 col-md-6">
+            <div className="featuresbox">
+              <MdOutlineFeaturedPlayList />
+              <h4>Features Heading</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum sapiente iste at fugiat dicta eaque nemo architecto tempora laudantium.</p>
+            </div>
+          </div>
+          <div className="col-12 col-md-6">
+            <div className="featuresbox">
+              <MdOutlineFeaturedPlayList />
+              <h4>Features Heading</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum sapiente iste at fugiat dicta eaque nemo architecto tempora laudantium.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
         </>
     )
 }
