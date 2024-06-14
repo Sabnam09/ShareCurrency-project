@@ -258,11 +258,12 @@
 
 /* Counter sec start */
 .counter-secmainn {
-  background-image: url(https://web.moxcreative.com/ventuure/wp-content/uploads/sites/20/2023/03/stock-market-display.jpg);
+  background-image: url("images/peakpx (37).jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  /* opacity: 0.9; */
   /* margin-bottom: 70px; */
   background-attachment: fixed;
 }

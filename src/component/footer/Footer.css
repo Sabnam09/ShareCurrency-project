@@ -27,7 +27,7 @@
 
 .footer-copyright {
      text-align: center;
-     background-color: #036161;
+     background-color: #098ecf;
      color: white;
      padding: 6px 0px;
      font-size: 12px;
@@ -76,6 +76,7 @@
      color: darkcyan
 }
 .footermainsec {
+     /* background-image: url("images/footrbg.jfif"); */
      background-image: url("images/peakpx (7).jpg");
      background-repeat: no-repeat;
      background-size: cover;
@@ -93,6 +94,8 @@
      animation: footrmobl 4s linear infinite;
 }
 
+
+
 @keyframes footrmobl {
      0% {
           transform: translateY(0) rotateY(0deg);
@@ -107,6 +110,12 @@
      }
 }
 
+
+.footrh5{
+     font-weight: bold;
+     /* color: darkgoldenrod; */
+     color: rgba(117, 0, 0, 0.712);
+}
 
 
 @media (max-width: 992px) {
