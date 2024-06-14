@@ -1,5 +1,5 @@
 .about-sec-bg {
-  /* background-image: url(https://img.pikbest.com/back_our/bg/20191116/bg/6a8223043cb3c.png!w700wp); */
+  /* background-image: url('images/peakpx (98).jpg'); */
   background-image: url('images/banner-bg-img2.jpg');
   background-position: center;
   background-size: cover;
@@ -134,10 +134,10 @@
 
 
 .about-sec-3 {
-  background-image: url("images/peakpx (4).jpg");
   text-align: center;
   padding: 40px 10px;
-  /* background-image: url(https://img.freepik.com/premium-photo/abstract-background-design-images-wallpaper-ai-generated_643360-131716.jpg?w=360); */
+  background-image: url("images/backgrounds-13.png");
+  /* background-image: url("images/peakpx (34).jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   margin: 6px 0px;
@@ -174,17 +174,13 @@
   margin-bottom: 20px;
 }
 
-.about-sec-3-col {
-  /* margin: 30px 0px;
-  background: #80808063;
-    padding: 43px 0px; */
-}
-.about-sec-3-coldivbg{
+.about-sec-3-coldivbg {
   background-color: white;
   padding: 35px 0px;
   box-shadow: 3px 4px 5px 6px skyblue;
 }
-.about-sec-3-coldivbg:hover{
+
+.about-sec-3-coldivbg:hover {
   background-color: rgba(135, 207, 235, 0.418);
   margin-top: -3px;
 }
@@ -202,7 +198,7 @@
 .about-sec-4 {
   padding: 40px 10px;
   background-image: url('images/peakpx (64).jpg');
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   background-size: cover;
   margin: 6px 0px;
 }
@@ -233,36 +229,10 @@
   margin-top: 50px;
 }
 
-
-
-
-@media (max-width: 768px) {
-  .about-sec-4coltext {
-    display: flex;
-    justify-content: center;
-  }
-
-  .about-sec-4coltextimgg {
-    text-align: center;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Our Field Section.css */
 .background-section {
   position: relative;
-  background-image: url("images/peakpx (16).jpg");
+  background-image: url("images/peakpx (88).jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -332,26 +302,6 @@
   margin-top: 50px;
 }
 
-@media screen and (max-width: 768px) {
-  .blocks {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .block {
-    width: 80%;
-  }
-
-  .block2,
-  .block4 {
-    margin-top: 20px;
-  }
-
-  .background-section {
-    height: 1150px;
-  }
-
-}
 
 .homourvaluessec {
   margin-bottom: 70px !important;
@@ -362,11 +312,6 @@
   margin: 6px 0px;
 }
 
-
-/* .Container {
-    max-width: 100%; 
-    margin: 0 auto; 
-  } */
 
 .value-section {
   display: flex;
@@ -426,6 +371,9 @@
   color: #333;
 }
 
+
+
+
 /* Responsive Styling */
 @media screen and (max-width: 768px) {
 
@@ -433,15 +381,32 @@
   .right-column {
     width: 100%;
   }
+
+  .about-sec-4coltext {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-sec-4coltextimgg {
+    text-align: center;
+  }
+
+  .blocks {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .block {
+    width: 80%;
+  }
+
+  .block2,
+  .block4 {
+    margin-top: 20px;
+  }
+
+  .background-section {
+    height: 1150px;
+  }
 }
-
-
-
-
-
-
-
-
-
-
 

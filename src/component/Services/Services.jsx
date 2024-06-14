@@ -88,8 +88,11 @@ function Services() {
             <section className='servicesec-4'>
                 <div className="container">
                     <div className="row">
-                        <div className="col-6">
+                        <div className="col-6 servicesec-4colimag">
+                            <div>
+                            {/* <img className='img-fluid' src="images/peakpx (90).jpg"></img> */}
                             <img className='img-fluid' src="https://skycommodity.in/static/media/Spot-bg.21e0131652601a908e65.png"></img>
+                            </div>
                         </div>
                         <div className="col-6">
                             <div className='servicesec-4box'>
