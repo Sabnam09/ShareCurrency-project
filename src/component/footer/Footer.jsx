@@ -21,10 +21,8 @@ const Footer = () => {
                             <div class="row">
 
                                 <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-                                    <h5 class="text-uppercase mb-4">About company</h5>
-
+                                    <h5 class="text-uppercase mb-4 footrh5">About company</h5>
                                     <p>
-
                                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem quis maxime mollitia quos laudantium! Officia adipisci debitis amet impedit delectus accusamus tempore et cumque. Illum placeat magni voluptate exercitationem dolor.
                                         markets,
                                         supported by regular events and training courses.
@@ -43,8 +41,8 @@ const Footer = () => {
                                 </div>
 
 
-                                <div class="col-lg-5 col-md-6 footfrtextcol">
-                                    <h5 class="text-uppercase  mb-4 pb-1 ms-lg-4 ps-lg-2">Courses </h5>
+                                <div class="col-lg-4 col-md-6 footfrtextcol">
+                                    <h5 class="text-uppercase  mb-4 pb-1 ms-lg-4 ps-lg-2 footrh5">Courses </h5>
 
                                     <ul class="fa-ul footer-listss">
                                         <li class="mb-3">
@@ -77,8 +75,8 @@ const Footer = () => {
 
 
 
-                                <div class="col-lg-3 col-md-6 footfrtextcol">
-                                    <h5 class="text-uppercase mb-4">Contact Info</h5>
+                                <div class="col-lg-4 col-md-6 footfrtextcol">
+                                    <h5 class="text-uppercase mb-4 footrh5">Contact Info</h5>
                                     <div>
                                         <div className='mb-3'>
                                             <FaMapMarkerAlt size={18} /> 101, Sai Niketan, Opposite Sai Baba Mandir, Sai Baba Nagar, Borivali West, Mumbai - 400092
