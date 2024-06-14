@@ -51,7 +51,7 @@ const MarketingPage = () => {
         <h1>Market</h1>
       </div>
 
-      <div className="banner_background_img">
+      {/* <div className="banner_background_img"> */}
         <div className="banner_background_img1">
           <Container
             className="aos-init"
@@ -102,7 +102,7 @@ const MarketingPage = () => {
               </tr>
             </tbody> */}
           </table>
-        </div>
+        {/* </div> */}
 
         <div className="banner_background_img">
           <Container>
@@ -115,7 +115,7 @@ const MarketingPage = () => {
                     data-aos-duration="3700"
                     data-aos-easing="ease-in-out"
                   >
-                    <h3 className="title">Stock Holdings</h3>
+                    <h3 className="stock-title">Stock Holdings</h3>
                     <p>
                       Stock holdings refer to the number of stocks, or shares,
                       that a person or institution owns in a company. These make
@@ -162,12 +162,12 @@ const MarketingPage = () => {
                   </div>
                   <div className="col">
                     <div
-                      className="banner-box aos-init"
+                      className="banner-box2 aos-init"
                       data-aos="fade-down"
                       data-aos-duration="3700"
                       data-aos-easing="ease-in-out"
                     >
-                      <h3 className="title">Intraday Trading</h3>
+                      <h3 className="title-stock">Intraday Trading</h3>
                       <p>
                         Intraday trades, also known as day trading, involve buying
                         and selling a stock within a trading session, i.e. on the
@@ -195,7 +195,7 @@ const MarketingPage = () => {
             </div>
           </Container>
         </div>
-    </div >
+    </div>
           </>
   );
 };
