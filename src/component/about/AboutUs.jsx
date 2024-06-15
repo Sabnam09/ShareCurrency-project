@@ -53,24 +53,25 @@ const AboutUs = () => {
             </section>
 
             <section className='about-sec2'>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-8 about-sec2coltext">
-                            <div>
-                                <h1>Cryptro’s technology drives new world</h1>
-                                <p>Create a tradeable digital token that can be used as a currency, a representation of an asset, a virtual share, a proof of membership or anything at all. These tokens use a standard coin API so your contract will be automatically compatible with any wallet, other contract or exchange also using this standard. The total amount of tokens in circulation can be set to a simple fixed amount or fluctuate based on any programmed ruleset.</p>
-                                <p>By combining our proprietary smart contracts with blockchain technology and providing these tools to everyone.</p>
-                                <ul>
-                                    <li> <FaArrowRight /> Smart contracts that work such as Lightning Network</li>
-                                    <li> <FaArrowRight /> Proof-of-stake (PoS) consensus Cross-chain atomic swaps</li>
-                                    <li> <FaArrowRight /> Connectivity across payments networks</li>
-                                </ul>
-                                <button>Learn More</button>
-                            </div>
-                        </div>
-                    </div>
+    <div className="container">
+        <div className="row">
+            <div className="col-lg-8 col-md-10 col-sm-12 about-sec2coltext">
+                <div>
+                    <h1>Cryptro’s technology drives new world</h1>
+                    <p>Create a tradeable digital token that can be used as a currency, a representation of an asset, a virtual share, a proof of membership or anything at all. These tokens use a standard coin API so your contract will be automatically compatible with any wallet, other contract or exchange also using this standard. The total amount of tokens in circulation can be set to a simple fixed amount or fluctuate based on any programmed ruleset.</p>
+                    <p>By combining our proprietary smart contracts with blockchain technology and providing these tools to everyone.</p>
+                    <ul>
+                        <li> <FaArrowRight /> Smart contracts that work such as Lightning Network</li>
+                        <li> <FaArrowRight /> Proof-of-stake (PoS) consensus Cross-chain atomic swaps</li>
+                        <li> <FaArrowRight /> Connectivity across payments networks</li>
+                    </ul>
+                    <button>Learn More</button>
                 </div>
-            </section>
+            </div>
+        </div>
+    </div>
+</section>
+
 
             <section className='about-sec-3'>
                 <div className="container">

@@ -37,7 +37,6 @@ function Home() {
                             className="d-block w-100"
                             alt="..."
                         />
-
                     </Carousel.Item>
 
                     <Carousel.Item className="homesec-slider-item">
@@ -59,7 +58,6 @@ function Home() {
                             className="d-block w-100"
                             alt="..."
                         />
-
                     </Carousel.Item>
 
                     <Carousel.Item className="homesec-slider-item">
@@ -81,7 +79,6 @@ function Home() {
                             className="d-block w-100"
                             alt="..."
                         />
-
                     </Carousel.Item>
                 </Carousel>
             </section>
