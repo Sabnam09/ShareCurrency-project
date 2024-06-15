@@ -158,25 +158,14 @@
   text-align: center;
   padding-top: 25px;
 }
-.meetOurTeamsec-head {
-  font-size: 30px;
-  font-weight: 800;
-  text-align: center;
-  padding-top: 25px;
-}
 
 .service-head span {
   color: skyblue;
 }
-.meetOurTeamsec-head span {
-  color: skyblue;
-}
+
 
 .service-head p {
   color: #0c1f38;
-}
-.meetOurTeamsec-head p {
-  color: whitesmoke;
 }
 
 .service-text {
@@ -233,29 +222,13 @@
   color: skyblue;
 }
 
-.meetOurTeamsec {
-  padding-bottom: 100px !important;
-  padding: 0px 20px;
-  /* background-image: url("images/background_img9.jpg"); */
-  background-image: url("images/backgrounds-7.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 6px 0px;
-}
-.meetOurTeamsecroww{
-  margin-bottom: 100px;
-}
-
-.recentProjectssec {
-  padding: 30px 20px;
-  background-image: url("images/backgrounds-2.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 6px 0px;
+.card-img-top {
+  width: 100%;
+  display: block;
 }
 
 
-/* service section start*/
+
 
 /* Counter sec start */
 .counter-secmainn {
@@ -322,8 +295,32 @@
 
 /* Counter sec end */
 
-.recent_projects_maindiv {
-  display: flex;
+
+.meetOurTeamsec-head span {
+  color: skyblue;
+}
+.meetOurTeamsec-head {
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.meetOurTeamsec-head p {
+  color: whitesmoke;
+}
+
+.meetOurTeamsec {
+  padding-bottom: 100px !important;
+  padding: 0px 20px;
+  /* background-image: url("images/background_img9.jpg"); */
+  background-image: url("images/backgrounds-7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 6px 0px;
+}
+.meetOurTeamsecroww{
+  margin-bottom: 100px;
 }
 
 .meetOurteam {
@@ -350,6 +347,20 @@
   font-weight: bold
 }
 
+.meetOurTeamseccol {
+  margin: 30px 0px;
+}
+
+.meetOurTeamseccol .blog-card:hover {
+  background-color: rgba(18, 119, 126, 0.89);
+  /* border: 2px solid rgba(128, 128, 128, 0.212); */
+  padding: 2px;
+  border-radius: 10px;
+}
+.meetOurTeamseccol .blog-card:hover p{
+  color: white;
+}
+
 
 .sec-progressbarcoltext {
   padding-top: 50px;
@@ -371,7 +382,17 @@
   color: white;
   transition: width 0.5s ease;
 }
+.recent_projects_maindiv {
+  display: flex;
+}
 
+.recentProjectssec {
+  padding: 30px 20px;
+  background-image: url("images/backgrounds-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 6px 0px;
+}
 
 .recentProjectssecolc img {
   height: 200px;
@@ -385,7 +406,7 @@
 .homeaboutsec {
   padding-top: 20px;
   padding: 0px 20px;
-  background-image: url("images/backgrounds-6.png");
+  background-image: url("images/backgrounds-14.png");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 6px 0px;
@@ -456,19 +477,6 @@
   margin-bottom: 50px;
 }
 
-.meetOurTeamseccol {
-  margin: 30px 0px;
-}
-
-.meetOurTeamseccol .blog-card:hover {
-  background-color: rgba(18, 119, 126, 0.89);
-  /* border: 2px solid rgba(128, 128, 128, 0.212); */
-  padding: 2px;
-  border-radius: 10px;
-}
-.meetOurTeamseccol .blog-card:hover p{
-  color: white;
-}
 
 
 .homeaboutsec-coltxt h2 {
@@ -502,6 +510,7 @@
     transform: translateY(0);
   }
 }
+
 
 .homenews-card-radius img {
   border-radius: 0px;
@@ -583,10 +592,6 @@
   opacity: 1;
 }
 
-.card-img-top {
-  width: 100%;
-  display: block;
-}
 
 .recentprojcthome-overlay-text {
   color: white;
@@ -736,3 +741,16 @@
     transform: translateY(0) translateX(0);
   }
 }
+
+@media (max-width: 576px) {
+  .homeaboutsec-divvtext{
+    margin-bottom: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .homeaboutsec-divvtext{
+    margin-bottom: 20px;
+  }
+}
+
